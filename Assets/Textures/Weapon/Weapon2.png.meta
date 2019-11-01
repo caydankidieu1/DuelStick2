@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 20c90e2e16a3f844ab2274aa9006385f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5704627066735044902
+    second: Weapon2_1
+  - first:
+      213: -7310884378538523348
+    second: Weapon2_2
+  - first:
+      213: 3954836654050351759
+    second: Weapon2_3
+  - first:
+      213: 7572598115041595342
+    second: Weapon2_5
+  - first:
+      213: -2527938629374649648
+    second: Weapon2_6
+  - first:
+      213: -699512533295919432
+    second: Weapon2_7
+  - first:
+      213: -3225393600193901529
+    second: Weapon2_9
+  - first:
+      213: -3054953104793193204
+    second: Weapon2_11
+  - first:
+      213: -2905042525162196631
+    second: Weapon2_13
+  - first:
+      213: 6495473323755346639
+    second: Weapon2_14
+  - first:
+      213: 6999577635982549224
+    second: Weapon2_15
+  - first:
+      213: -989537269406962578
+    second: Weapon2_16
+  - first:
+      213: 1346660498984856763
+    second: Weapon2_17
+  - first:
+      213: 8202783641057809623
+    second: Weapon2_18
+  - first:
+      213: 3045824427581419828
+    second: Weapon2_19
+  - first:
+      213: 6722919062446749586
+    second: Weapon2_20
+  - first:
+      213: -6684323021521259534
+    second: Weapon2_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Weapon2_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 688
+        width: 231
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c963980083888b449b7f854f36df520b
+      internalID: -5704627066735044902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 661
+        width: 203
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7e98fc393006742acedf9ff2a325d6
+      internalID: -7310884378538523348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_3
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 570
+        width: 255
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054587107203167408cf7e5e225397b9
+      internalID: 3954836654050351759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 122
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42995e014b8bf7048b7751e3916e5b41
+      internalID: 7572598115041595342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 542
+        width: 272
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bb43150b05d2a41b4bbd9b8bd2312b
+      internalID: -2527938629374649648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_7
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 516
+        width: 126
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d14358cb986f94ca6a03ea4f95a838
+      internalID: -699512533295919432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_9
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 463
+        width: 296
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33667e9837dd5d4ca1505629b41abe5
+      internalID: -3225393600193901529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 251
+        width: 224
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918fe41238270ef4bb35d311f91dc19d
+      internalID: -3054953104793193204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_13
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 304
+        width: 167
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec629feaefdf674b974a3e6864cbec8
+      internalID: -2905042525162196631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 174
+        width: 272
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362cd300e0e24e648b57ba8e733dacad
+      internalID: 6495473323755346639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_15
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 175
+        width: 122
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c2115ee7cb32f47a55fd2b1c9054b4
+      internalID: 6999577635982549224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_16
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 214
+        width: 300
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec86ca6478c9a2449bc594f374c134be
+      internalID: -989537269406962578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 5
+        width: 269
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0476d804135a7a48bb552c7654d3d3d
+      internalID: 1346660498984856763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 74
+        width: 273
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d995cc60f8548a43bbf4a539c368ccf
+      internalID: 8202783641057809623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_19
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 69
+        width: 292
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa58af3024116f469db8106d246ae9f
+      internalID: 3045824427581419828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_20
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 52
+        width: 261
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf05f7817469124ba2cc9d178aa3fa0
+      internalID: 6722919062446749586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon2_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 17
+        width: 284
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2770e817a7f0809409c5ad8a04765d5d
+      internalID: -6684323021521259534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ed7d2bb6b6146d7459079efbb67b33de
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

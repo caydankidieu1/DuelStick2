@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: b889af566bbe1ce4690c9878d3696c02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7798580115735800237
+    second: khung1_2
+  - first:
+      213: -2561701279530104617
+    second: khung1_3
+  - first:
+      213: 1227380593292563426
+    second: khung1_12
+  - first:
+      213: 8567237406733720938
+    second: khung1_14
+  - first:
+      213: 7334047374727608551
+    second: khung1_24
+  - first:
+      213: 9221763439194513917
+    second: khung1_70
+  - first:
+      213: -4142245973031207507
+    second: khung1_72
+  - first:
+      213: 8782086254337632168
+    second: khung1_74
+  - first:
+      213: -1290364140925182885
+    second: khung1_76
+  - first:
+      213: -6439092958266812396
+    second: khung1_78
+  - first:
+      213: 2494310795842866658
+    second: khung1_80
+  - first:
+      213: -2055864175824217201
+    second: khung1_82
+  - first:
+      213: -7682988286410530471
+    second: khung1_84
+  - first:
+      213: 4525725122257671042
+    second: khung1_86
+  - first:
+      213: -1150917655451802090
+    second: khung1_105
+  - first:
+      213: -4585567609275374097
+    second: khung1_106
+  - first:
+      213: 6981825950207518963
+    second: khung1_107
+  - first:
+      213: -5939398994965505929
+    second: khung1_108
+  - first:
+      213: 722812960662716630
+    second: khung1_109
+  - first:
+      213: -9061023522456417269
+    second: khung1_110
+  - first:
+      213: 8660922293068542717
+    second: khung1_111
+  - first:
+      213: 1842078113707706686
+    second: khung1_112
+  - first:
+      213: -6672218974760977414
+    second: khung1_113
+  - first:
+      213: -1820315593313516867
+    second: khung1_114
+  - first:
+      213: -5015217279205221962
+    second: khung1_115
+  - first:
+      213: -5750449073526949822
+    second: khung1_116
+  - first:
+      213: 5461713341443213746
+    second: khung1_117
+  - first:
+      213: 5009590130607511877
+    second: khung1_118
+  - first:
+      213: -1437232331550835390
+    second: khung1_119
+  - first:
+      213: -3980862974295704176
+    second: khung1_120
+  - first:
+      213: -3056098281201823969
+    second: khung1_121
+  - first:
+      213: -2307663083183770485
+    second: khung1_122
+  - first:
+      213: 7978063529904483804
+    second: khung1_123
+  - first:
+      213: -584121053609917453
+    second: khung1_127
+  - first:
+      213: 955378713057672063
+    second: khung1_128
+  - first:
+      213: -4482424058986952903
+    second: khung1_129
+  - first:
+      213: 1977400369877236368
+    second: khung1_130
+  - first:
+      213: -5032449504768592474
+    second: khung1_131
+  - first:
+      213: 3286698281108673014
+    second: khung1_132
+  - first:
+      213: -1564417936717242285
+    second: khung1_133
+  - first:
+      213: -987121561836685043
+    second: khung1_134
+  - first:
+      213: -6566301874655106508
+    second: khung1_135
+  - first:
+      213: -5623274371833404140
+    second: khung1_136
+  - first:
+      213: -3730880200361751313
+    second: khung1_137
+  - first:
+      213: 896421976398426158
+    second: khung1_138
+  - first:
+      213: 4429985500528735608
+    second: khung1_139
+  - first:
+      213: -2414665001972395950
+    second: khung1_140
+  - first:
+      213: 1363621550389918572
+    second: khung1_141
+  - first:
+      213: 5453755482615322043
+    second: khung1_142
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: khung1_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 758
+        width: 541
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf41275682bd4614eb3a7ae4bdc48a77
+      internalID: -7798580115735800237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung1_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 770
+        width: 540
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c665769971c94d47be86150b0f98b9e
+      internalID: -2561701279530104617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung1_12
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 441
+        width: 528
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 140, y: 0, z: 145, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce8b459d026b864c9fc5a8a69f6590a
+      internalID: 1227380593292563426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung1_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 443
+        width: 542
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 127, y: 0, z: 134, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f20de5172f29db49b411e98340989e5
+      internalID: 8567237406733720938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: khung1_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 108
+        width: 537
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134734e44c4f50b4d9da19b915cebafb
+      internalID: 7334047374727608551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fcbdefd7d212a1449b9d980d452ed700
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

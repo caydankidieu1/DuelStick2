@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d8d62de92992640bf93bde5ca6734f, type: 3}
+  m_Name: Vector
+  m_EditorClassIdentifier: 
+  id: 25
+  nameWeapon: Vector
+  equipSlots: 1
+  damage: 21
+  maxdamage: 150
+  skillDamage: 15
+  maxskillDamage: 150
+  description: 
+  timesToCD: 1
+  countDownTime: 5
+  forceKnockback: 2.5
+  Sprite: {fileID: 21300000, guid: ff30ad05b75f02641b9a93ee0f2f17a1, type: 3}
+  SpriteStore: {fileID: 21300000, guid: ff30ad05b75f02641b9a93ee0f2f17a1, type: 3}
+  cost: 16500
+  levelUnlock: 0
+  checkVideoUnlock: 0
+  videoUnlock: 0
+  RateLucky: 0.5509
+  checkBuy: 0
+  checkUse: 0
+  position: {x: 0, y: -0.199, z: 0}
+  rotation: {x: 0, y: 0, z: -90}
+  Scale: {x: 1.4, y: 1.4, z: 1.4}
+  weaponPrefab: {fileID: 7407587802229867600, guid: 0c44c315626ee66419b1134dfeb74c37,
+    type: 3}
+  checkTwoHands: 0
+  position2: {x: 0, y: 0, z: 0}
+  rotation2: {x: 0, y: 0, z: 0}
+  Scale2: {x: 0, y: 0, z: 0}
+  weaponPrefabClone: {fileID: 0}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d8d62de92992640bf93bde5ca6734f, type: 3}
+  m_Name: Pink Dagger
+  m_EditorClassIdentifier: 
+  id: 04
+  nameWeapon: Pink Dagger
+  equipSlots: 1
+  damage: 11
+  maxdamage: 150
+  skillDamage: 16
+  maxskillDamage: 150
+  description: 
+  timesToCD: 1
+  countDownTime: 3
+  forceKnockback: 1
+  Sprite: {fileID: 21300000, guid: d5ddb71d953c4544cb149c5fe59c6ad0, type: 3}
+  SpriteStore: {fileID: 21300000, guid: d5ddb71d953c4544cb149c5fe59c6ad0, type: 3}
+  cost: 0
+  levelUnlock: 100
+  checkVideoUnlock: 1
+  videoUnlock: 5
+  RateLucky: 7.3453
+  checkBuy: 0
+  checkUse: 0
+  position: {x: 0.135, y: -0.537, z: 0}
+  rotation: {x: 0, y: 0, z: -63.695}
+  Scale: {x: 2.2, y: 2.2, z: 2.2}
+  weaponPrefab: {fileID: 8580407930520415890, guid: d39d615059559dd4c9485f2fb17617da,
+    type: 3}
+  checkTwoHands: 0
+  position2: {x: 0, y: 0, z: 0}
+  rotation2: {x: 0, y: 0, z: 0}
+  Scale2: {x: 0, y: 0, z: 0}
+  weaponPrefabClone: {fileID: 0}

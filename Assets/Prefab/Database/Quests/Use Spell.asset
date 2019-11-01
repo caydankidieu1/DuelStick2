@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80fb82eeef21f146b861e1ec0064a4e, type: 3}
+  m_Name: Use Spell
+  m_EditorClassIdentifier: 
+  id: 05
+  number: 0
+  numberMax: 3
+  present: 400
+  nowDay: 0
+  iconQuest: {fileID: 21300000, guid: 0291af3ce5e38884492fc91f5b78385e, type: 3}
+  checkClaim: 0
+  checkReceived: 0
+  Description: Use spells 3 times

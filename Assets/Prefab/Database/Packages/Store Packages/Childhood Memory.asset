@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6cbda6a34c697b44b9dfd345e2a5333, type: 3}
+  m_Name: Childhood Memory
+  m_EditorClassIdentifier: 
+  id: 08
+  name: Childhood Memory
+  description: 'Weapon :
+
+    -To Ong Sandal
+
+    -Paper Plane
+
+    -Card'
+  cost: 4.99
+  namePackage: com.duel.pack3
+  icon: {fileID: 21300000, guid: 2965b40bb9534354f87308d9fec146d1, type: 3}
+  weapons:
+  - {fileID: 11400000, guid: 2090390790c8f8e4e81cc6867b6dc287, type: 2}
+  - {fileID: 11400000, guid: d7488227c63c87a46a10cb5fbc7fd3e6, type: 2}
+  - {fileID: 11400000, guid: 91cac5d51ae36d84fb250ae171c101fb, type: 2}
+  skins: []
+  checkBuy: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6cbda6a34c697b44b9dfd345e2a5333, type: 3}
+  m_Name: The Classic Guys
+  m_EditorClassIdentifier: 
+  id: 07
+  name: The Classic Guys
+  description: 'Weapon :
+
+    -Cross Bow
+
+    -Holo Mace
+
+    -Hunter Sword'
+  cost: 2.99
+  namePackage: com.duel.pack2
+  icon: {fileID: 21300000, guid: c09fef9ef87bccf4e8540a3938a2b744, type: 3}
+  weapons:
+  - {fileID: 11400000, guid: 23c71cf136524b945a5b859ed6ce0a79, type: 2}
+  - {fileID: 11400000, guid: 1c9520f63ab7abc4ebedf75b3ec56b49, type: 2}
+  - {fileID: 11400000, guid: fbb3148f542fac243a8c31a22cddbf3c, type: 2}
+  skins: []
+  checkBuy: 0

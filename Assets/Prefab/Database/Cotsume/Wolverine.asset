@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Wolverine
+  m_EditorClassIdentifier: 
+  id: 11
+  HP: 1290
+  maxHPCotsume: 4500
+  cost: 0
+  levelUnlock: 100
+  rateLuckySpin: 0
+  nameCotsume: Werewolf
+  checkBuy: 1
+  checkUse: 0
+  icon: {fileID: 3931081515334254321, guid: e54634f3ae6978e4baa9f9c7c6c683ae, type: 3}
+  picture: {fileID: 3931081515334254321, guid: e54634f3ae6978e4baa9f9c7c6c683ae, type: 3}
+  Head: {fileID: 3931081515334254321, guid: e54634f3ae6978e4baa9f9c7c6c683ae, type: 3}
+  Chest: {fileID: -3086951409895486448, guid: e54634f3ae6978e4baa9f9c7c6c683ae, type: 3}
+  Hip: {fileID: 2682706198563785227, guid: e54634f3ae6978e4baa9f9c7c6c683ae, type: 3}
+  UpperArm_R: {fileID: -1515524432569580576, guid: e54634f3ae6978e4baa9f9c7c6c683ae,
+    type: 3}
+  LowerArm_R: {fileID: -2310402461280973819, guid: e54634f3ae6978e4baa9f9c7c6c683ae,
+    type: 3}
+  UpperArm_L: {fileID: -3861960048764854257, guid: e54634f3ae6978e4baa9f9c7c6c683ae,
+    type: 3}
+  LowerArm_L: {fileID: 2642885898252791498, guid: e54634f3ae6978e4baa9f9c7c6c683ae,
+    type: 3}
+  UpperLeg_R: {fileID: 9091939536536460704, guid: e54634f3ae6978e4baa9f9c7c6c683ae,
+    type: 3}
+  LowerLeg_R: {fileID: -8542662891872191434, guid: e54634f3ae6978e4baa9f9c7c6c683ae,
+    type: 3}
+  UpperLeg_L: {fileID: -4148536958108913985, guid: e54634f3ae6978e4baa9f9c7c6c683ae,
+    type: 3}
+  LowerLeg_L: {fileID: -2884266105947059167, guid: e54634f3ae6978e4baa9f9c7c6c683ae,
+    type: 3}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Vegeta
+  m_EditorClassIdentifier: 
+  id: 33
+  HP: 1470
+  maxHPCotsume: 4500
+  cost: 22500
+  levelUnlock: 0
+  rateLuckySpin: 0.4747
+  nameCotsume: Kadjk
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: -7722058496274599248, guid: 3949a6ff6445ad54fadb859faff8a5f1, type: 3}
+  picture: {fileID: -7722058496274599248, guid: 3949a6ff6445ad54fadb859faff8a5f1,
+    type: 3}
+  Head: {fileID: -7722058496274599248, guid: 3949a6ff6445ad54fadb859faff8a5f1, type: 3}
+  Chest: {fileID: -5648159087306981425, guid: 3949a6ff6445ad54fadb859faff8a5f1, type: 3}
+  Hip: {fileID: -4233959587305746435, guid: 3949a6ff6445ad54fadb859faff8a5f1, type: 3}
+  UpperArm_R: {fileID: 7943368326075445918, guid: 3949a6ff6445ad54fadb859faff8a5f1,
+    type: 3}
+  LowerArm_R: {fileID: 6154232694678445410, guid: 3949a6ff6445ad54fadb859faff8a5f1,
+    type: 3}
+  UpperArm_L: {fileID: 711758451788238915, guid: 3949a6ff6445ad54fadb859faff8a5f1,
+    type: 3}
+  LowerArm_L: {fileID: 5430072007153227587, guid: 3949a6ff6445ad54fadb859faff8a5f1,
+    type: 3}
+  UpperLeg_R: {fileID: -8578739914786570271, guid: 3949a6ff6445ad54fadb859faff8a5f1,
+    type: 3}
+  LowerLeg_R: {fileID: -7921285987876736898, guid: 3949a6ff6445ad54fadb859faff8a5f1,
+    type: 3}
+  UpperLeg_L: {fileID: -7438182600376085689, guid: 3949a6ff6445ad54fadb859faff8a5f1,
+    type: 3}
+  LowerLeg_L: {fileID: 6082655517351278077, guid: 3949a6ff6445ad54fadb859faff8a5f1,
+    type: 3}

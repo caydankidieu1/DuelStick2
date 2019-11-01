@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Buu
+  m_EditorClassIdentifier: 
+  id: 34
+  HP: 1260
+  maxHPCotsume: 4500
+  cost: 7500
+  levelUnlock: 0
+  rateLuckySpin: 1.5935
+  nameCotsume: Bumahkun
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: -3899190566472548350, guid: 33e179a655dc27b478f2e83c1ce09f3a, type: 3}
+  picture: {fileID: -3899190566472548350, guid: 33e179a655dc27b478f2e83c1ce09f3a,
+    type: 3}
+  Head: {fileID: -3899190566472548350, guid: 33e179a655dc27b478f2e83c1ce09f3a, type: 3}
+  Chest: {fileID: -529651428893832974, guid: 33e179a655dc27b478f2e83c1ce09f3a, type: 3}
+  Hip: {fileID: 7568127825959226705, guid: 33e179a655dc27b478f2e83c1ce09f3a, type: 3}
+  UpperArm_R: {fileID: 7430440604476604255, guid: 33e179a655dc27b478f2e83c1ce09f3a,
+    type: 3}
+  LowerArm_R: {fileID: -7118935555916746592, guid: 33e179a655dc27b478f2e83c1ce09f3a,
+    type: 3}
+  UpperArm_L: {fileID: -7119561286651928908, guid: 33e179a655dc27b478f2e83c1ce09f3a,
+    type: 3}
+  LowerArm_L: {fileID: -8162220019708731369, guid: 33e179a655dc27b478f2e83c1ce09f3a,
+    type: 3}
+  UpperLeg_R: {fileID: -6555355901117293835, guid: 33e179a655dc27b478f2e83c1ce09f3a,
+    type: 3}
+  LowerLeg_R: {fileID: 7366111267581133, guid: 33e179a655dc27b478f2e83c1ce09f3a, type: 3}
+  UpperLeg_L: {fileID: 8603278655912736551, guid: 33e179a655dc27b478f2e83c1ce09f3a,
+    type: 3}
+  LowerLeg_L: {fileID: 8006171111722175015, guid: 33e179a655dc27b478f2e83c1ce09f3a,
+    type: 3}

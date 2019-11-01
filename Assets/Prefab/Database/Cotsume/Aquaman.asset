@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Aquaman
+  m_EditorClassIdentifier: 
+  id: 53
+  HP: 1320
+  maxHPCotsume: 4500
+  cost: 9500
+  levelUnlock: 0
+  rateLuckySpin: 1.1742
+  nameCotsume: Ocean Eyes
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: -8295310579903384831, guid: 1cdf6949145f5404787a4468659f7a88, type: 3}
+  picture: {fileID: -8295310579903384831, guid: 1cdf6949145f5404787a4468659f7a88,
+    type: 3}
+  Head: {fileID: -8295310579903384831, guid: 1cdf6949145f5404787a4468659f7a88, type: 3}
+  Chest: {fileID: -7494279192557748840, guid: 1cdf6949145f5404787a4468659f7a88, type: 3}
+  Hip: {fileID: 2356210586449602404, guid: 1cdf6949145f5404787a4468659f7a88, type: 3}
+  UpperArm_R: {fileID: -8921942035193583230, guid: 1cdf6949145f5404787a4468659f7a88,
+    type: 3}
+  LowerArm_R: {fileID: 2296498925188119770, guid: 1cdf6949145f5404787a4468659f7a88,
+    type: 3}
+  UpperArm_L: {fileID: 1341831143975947558, guid: 1cdf6949145f5404787a4468659f7a88,
+    type: 3}
+  LowerArm_L: {fileID: -8296236636013661270, guid: 1cdf6949145f5404787a4468659f7a88,
+    type: 3}
+  UpperLeg_R: {fileID: -7197124657696089566, guid: 1cdf6949145f5404787a4468659f7a88,
+    type: 3}
+  LowerLeg_R: {fileID: 4527567272093757052, guid: 1cdf6949145f5404787a4468659f7a88,
+    type: 3}
+  UpperLeg_L: {fileID: 3057539940725205901, guid: 1cdf6949145f5404787a4468659f7a88,
+    type: 3}
+  LowerLeg_L: {fileID: -4983385117929265356, guid: 1cdf6949145f5404787a4468659f7a88,
+    type: 3}

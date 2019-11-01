@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Iron Fist
+  m_EditorClassIdentifier: 
+  id: 15
+  HP: 1230
+  maxHPCotsume: 4500
+  cost: 5500
+  levelUnlock: 0
+  rateLuckySpin: 2.231
+  nameCotsume: Steel Punch
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: -8629311218502192419, guid: 485929d57e6bf874b8a0219c08a1190a, type: 3}
+  picture: {fileID: -8629311218502192419, guid: 485929d57e6bf874b8a0219c08a1190a,
+    type: 3}
+  Head: {fileID: -8629311218502192419, guid: 485929d57e6bf874b8a0219c08a1190a, type: 3}
+  Chest: {fileID: 9099523491408488917, guid: 485929d57e6bf874b8a0219c08a1190a, type: 3}
+  Hip: {fileID: 7202002368002052492, guid: 485929d57e6bf874b8a0219c08a1190a, type: 3}
+  UpperArm_R: {fileID: 2515619607446851585, guid: 485929d57e6bf874b8a0219c08a1190a,
+    type: 3}
+  LowerArm_R: {fileID: 6985107704937479905, guid: 485929d57e6bf874b8a0219c08a1190a,
+    type: 3}
+  UpperArm_L: {fileID: -5775660006382079473, guid: 485929d57e6bf874b8a0219c08a1190a,
+    type: 3}
+  LowerArm_L: {fileID: -1116216771957367459, guid: 485929d57e6bf874b8a0219c08a1190a,
+    type: 3}
+  UpperLeg_R: {fileID: 8431599046719043092, guid: 485929d57e6bf874b8a0219c08a1190a,
+    type: 3}
+  LowerLeg_R: {fileID: 1797760369496914786, guid: 485929d57e6bf874b8a0219c08a1190a,
+    type: 3}
+  UpperLeg_L: {fileID: -3375135949782666693, guid: 485929d57e6bf874b8a0219c08a1190a,
+    type: 3}
+  LowerLeg_L: {fileID: -2087462286008234791, guid: 485929d57e6bf874b8a0219c08a1190a,
+    type: 3}

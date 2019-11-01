@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  id: 1
+  HP: 500
+  maxHPCotsume: 500
+  cost: 0
+  levelUnlock: 0
+  rateLuckySpin: 100
+  nameCotsume: Null
+  checkBuy: 1
+  checkUse: 0
+  checkUseP1: 1
+  checkUseP2: 0
+  icon: {fileID: -2369867600477939372, guid: 334a32bb6e40c5f4fbd4da13c421c903, type: 3}
+  picture: {fileID: -2369867600477939372, guid: 334a32bb6e40c5f4fbd4da13c421c903,
+    type: 3}
+  Head: {fileID: -2369867600477939372, guid: 334a32bb6e40c5f4fbd4da13c421c903, type: 3}
+  Chest: {fileID: -44328603698726018, guid: 334a32bb6e40c5f4fbd4da13c421c903, type: 3}
+  Hip: {fileID: -620755829403384321, guid: 334a32bb6e40c5f4fbd4da13c421c903, type: 3}
+  UpperArm_R: {fileID: 8199086895451731299, guid: 334a32bb6e40c5f4fbd4da13c421c903,
+    type: 3}
+  LowerArm_R: {fileID: 1631435219242977999, guid: 334a32bb6e40c5f4fbd4da13c421c903,
+    type: 3}
+  UpperArm_L: {fileID: 975496377610015301, guid: 334a32bb6e40c5f4fbd4da13c421c903,
+    type: 3}
+  LowerArm_L: {fileID: -3188648870281413916, guid: 334a32bb6e40c5f4fbd4da13c421c903,
+    type: 3}
+  UpperLeg_R: {fileID: 8207559141560990185, guid: 334a32bb6e40c5f4fbd4da13c421c903,
+    type: 3}
+  LowerLeg_R: {fileID: -8301965444760207092, guid: 334a32bb6e40c5f4fbd4da13c421c903,
+    type: 3}
+  UpperLeg_L: {fileID: -6294894754899543804, guid: 334a32bb6e40c5f4fbd4da13c421c903,
+    type: 3}
+  LowerLeg_L: {fileID: 9047163917610771762, guid: 334a32bb6e40c5f4fbd4da13c421c903,
+    type: 3}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d8d62de92992640bf93bde5ca6734f, type: 3}
+  m_Name: Double Knife
+  m_EditorClassIdentifier: 
+  id: 18
+  nameWeapon: Double Knife
+  equipSlots: 1
+  damage: 24
+  maxdamage: 150
+  skillDamage: 36
+  maxskillDamage: 150
+  description: 
+  timesToCD: 1
+  countDownTime: 4
+  forceKnockback: 0
+  Sprite: {fileID: 21300000, guid: 3ceda8ad2afed7b479b0d5a2f440a74c, type: 3}
+  SpriteStore: {fileID: 21300000, guid: 3ceda8ad2afed7b479b0d5a2f440a74c, type: 3}
+  cost: 19500
+  levelUnlock: 0
+  checkVideoUnlock: 0
+  videoUnlock: 0
+  RateLucky: 0
+  checkBuy: 0
+  checkUse: 0
+  position: {x: 0.01, y: -1.006, z: 0}
+  rotation: {x: 0, y: 0, z: -90}
+  Scale: {x: 0.85, y: 0.85, z: 0.85}
+  weaponPrefab: {fileID: 4494554954034795576, guid: 1624b9f77f5b48e42bf721422f31972d,
+    type: 3}
+  checkTwoHands: 1
+  position2: {x: 0, y: -1.006, z: 0}
+  rotation2: {x: 0, y: 0, z: -90}
+  Scale2: {x: 0.85, y: 0.85, z: 0.85}
+  weaponPrefabClone: {fileID: 4072181994786127664, guid: b32a50ffec6b73d4dbaaa46317a4d41d,
+    type: 3}

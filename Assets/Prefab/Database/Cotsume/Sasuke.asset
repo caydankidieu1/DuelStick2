@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Sasuke
+  m_EditorClassIdentifier: 
+  id: 41
+  HP: 1440
+  maxHPCotsume: 4500
+  cost: 18500
+  levelUnlock: 0
+  rateLuckySpin: 0.603
+  nameCotsume: Black Flame
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 21300000, guid: 7a43053870c967449aa8ae12719a2d0f, type: 3}
+  picture: {fileID: 21300000, guid: 7a43053870c967449aa8ae12719a2d0f, type: 3}
+  Head: {fileID: 21300000, guid: 7a43053870c967449aa8ae12719a2d0f, type: 3}
+  Chest: {fileID: 1323735133551490380, guid: a5209d84bba20134bb51b58ffdaa0b4b, type: 3}
+  Hip: {fileID: 6630790825209839240, guid: a5209d84bba20134bb51b58ffdaa0b4b, type: 3}
+  UpperArm_R: {fileID: -1569405227722862867, guid: a5209d84bba20134bb51b58ffdaa0b4b,
+    type: 3}
+  LowerArm_R: {fileID: -7663849434284368152, guid: a5209d84bba20134bb51b58ffdaa0b4b,
+    type: 3}
+  UpperArm_L: {fileID: 5011203657454405857, guid: a5209d84bba20134bb51b58ffdaa0b4b,
+    type: 3}
+  LowerArm_L: {fileID: -3811504735045992465, guid: a5209d84bba20134bb51b58ffdaa0b4b,
+    type: 3}
+  UpperLeg_R: {fileID: -5157856095960226604, guid: a5209d84bba20134bb51b58ffdaa0b4b,
+    type: 3}
+  LowerLeg_R: {fileID: 3081801040313523187, guid: a5209d84bba20134bb51b58ffdaa0b4b,
+    type: 3}
+  UpperLeg_L: {fileID: 7137462246688623113, guid: a5209d84bba20134bb51b58ffdaa0b4b,
+    type: 3}
+  LowerLeg_L: {fileID: 5457356173075814258, guid: a5209d84bba20134bb51b58ffdaa0b4b,
+    type: 3}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Naruto
+  m_EditorClassIdentifier: 
+  id: 40
+  HP: 1470
+  maxHPCotsume: 4500
+  cost: 20500
+  levelUnlock: 0
+  rateLuckySpin: 0.5188
+  nameCotsume: Wild Fox
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 21300000, guid: f38a38baf3b25e446ba2b4fd92dd0529, type: 3}
+  picture: {fileID: 21300000, guid: f38a38baf3b25e446ba2b4fd92dd0529, type: 3}
+  Head: {fileID: 21300000, guid: f38a38baf3b25e446ba2b4fd92dd0529, type: 3}
+  Chest: {fileID: -116112825375330891, guid: fb84473b11f6e0346af2dc644c1b19cd, type: 3}
+  Hip: {fileID: -5813819772013134198, guid: fb84473b11f6e0346af2dc644c1b19cd, type: 3}
+  UpperArm_R: {fileID: -2114225314643609634, guid: fb84473b11f6e0346af2dc644c1b19cd,
+    type: 3}
+  LowerArm_R: {fileID: 8048353109350145719, guid: fb84473b11f6e0346af2dc644c1b19cd,
+    type: 3}
+  UpperArm_L: {fileID: 6395246427713979682, guid: fb84473b11f6e0346af2dc644c1b19cd,
+    type: 3}
+  LowerArm_L: {fileID: 425252064936817998, guid: fb84473b11f6e0346af2dc644c1b19cd,
+    type: 3}
+  UpperLeg_R: {fileID: -6244529154988929803, guid: fb84473b11f6e0346af2dc644c1b19cd,
+    type: 3}
+  LowerLeg_R: {fileID: -7102374766586604891, guid: fb84473b11f6e0346af2dc644c1b19cd,
+    type: 3}
+  UpperLeg_L: {fileID: 2315180720857180224, guid: fb84473b11f6e0346af2dc644c1b19cd,
+    type: 3}
+  LowerLeg_L: {fileID: 4894663067786186784, guid: fb84473b11f6e0346af2dc644c1b19cd,
+    type: 3}

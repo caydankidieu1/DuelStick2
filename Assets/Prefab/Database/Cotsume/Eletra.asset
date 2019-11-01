@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Eletra
+  m_EditorClassIdentifier: 
+  id: 14
+  HP: 1170
+  maxHPCotsume: 4500
+  cost: 3500
+  levelUnlock: 0
+  rateLuckySpin: 3.7183
+  nameCotsume: Wuju Girl
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 3508491832507844302, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760, type: 3}
+  picture: {fileID: 3508491832507844302, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760, type: 3}
+  Head: {fileID: 3508491832507844302, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760, type: 3}
+  Chest: {fileID: 2110105869631974691, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760, type: 3}
+  Hip: {fileID: -4769740033733718709, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760, type: 3}
+  UpperArm_R: {fileID: -7043180881313192715, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760,
+    type: 3}
+  LowerArm_R: {fileID: 580014545782172590, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760,
+    type: 3}
+  UpperArm_L: {fileID: 7049735321207667637, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760,
+    type: 3}
+  LowerArm_L: {fileID: 8624662989615338502, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760,
+    type: 3}
+  UpperLeg_R: {fileID: 9017256692332195875, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760,
+    type: 3}
+  LowerLeg_R: {fileID: 1179123613751938976, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760,
+    type: 3}
+  UpperLeg_L: {fileID: 1523256100765546821, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760,
+    type: 3}
+  LowerLeg_L: {fileID: -7069536521935160878, guid: 2bfcaab78c73f5d4fb3ef90c5f84e760,
+    type: 3}

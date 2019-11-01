@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d8d62de92992640bf93bde5ca6734f, type: 3}
+  m_Name: Blue Knife
+  m_EditorClassIdentifier: 
+  id: 03
+  nameWeapon: Blue Knife
+  equipSlots: 1
+  damage: 9
+  maxdamage: 150
+  skillDamage: 0
+  maxskillDamage: 0
+  description: 
+  timesToCD: 1
+  countDownTime: 5
+  forceKnockback: 1
+  Sprite: {fileID: 21300000, guid: 7f286a2c519544f4fb816d62b1016c2c, type: 3}
+  SpriteStore: {fileID: 21300000, guid: 7f286a2c519544f4fb816d62b1016c2c, type: 3}
+  cost: 0
+  levelUnlock: 100
+  checkVideoUnlock: 0
+  videoUnlock: 0
+  RateLucky: 7.3453
+  checkBuy: 0
+  checkUse: 0
+  position: {x: 0.01, y: -0.642, z: 0}
+  rotation: {x: 0, y: 0, z: -90}
+  Scale: {x: 2, y: 2, z: 2}
+  weaponPrefab: {fileID: 6446846488708617775, guid: f0c6b04205b653a48bd79f3a72978256,
+    type: 3}
+  checkTwoHands: 0
+  position2: {x: 0, y: 0, z: 0}
+  rotation2: {x: 0, y: 0, z: 0}
+  Scale2: {x: 0, y: 0, z: 0}
+  weaponPrefabClone: {fileID: 0}

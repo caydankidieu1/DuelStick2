@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - player
+  - enemy
+  - weapon
+  - weaponEnemy
+  - unweapon
+  - ground
+  - storeWeapon
+  - setSkill
+  - skillP
+  - skillE
+  - sky
+  - trap
+  - UndoMovePowerupCount
+  - weaponBaseP
+  - weaponBaseE
+  - deathZone
+  - deathZoneAir
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - weapon
+  - player
+  - weaponEnemy
+  - enemy
+  - unweapon
+  - sky
+  - skill
+  - unweapon2
+  - Wall
+  - MoveThoughtWeapon
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Water
+    uniqueID: 2305478013
+    locked: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e22ea94de0c14f90274a623e5513e, type: 3}
+  m_Name: Tsunami
+  m_EditorClassIdentifier: 
+  namePackage: Tsunami
+  cotsume:
+  - {fileID: 11400000, guid: 8547428172c109d429ebcfc760a9b22a, type: 2}
+  - {fileID: 11400000, guid: e6b65ac3078f6304e91f0aaae0736908, type: 2}
+  - {fileID: 11400000, guid: 84b451ac263f3f34dac32c75af9ead4c, type: 2}
+  - {fileID: 11400000, guid: 3bc811f3a57b51e428f6b7c2e9505146, type: 2}
+  - {fileID: 11400000, guid: 1f22c29efdad7ea4381faa83d409647d, type: 2}
+  - {fileID: 11400000, guid: 1de6548e975ab63409f3c31da066efa2, type: 2}
+  - {fileID: 11400000, guid: 4c83d9952706d124b951d52ab251963b, type: 2}

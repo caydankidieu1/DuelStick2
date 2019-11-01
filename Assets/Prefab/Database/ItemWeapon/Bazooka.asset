@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d8d62de92992640bf93bde5ca6734f, type: 3}
+  m_Name: Bazooka
+  m_EditorClassIdentifier: 
+  id: 32
+  nameWeapon: Bazooka
+  equipSlots: 1
+  damage: 28
+  maxdamage: 150
+  skillDamage: 42
+  maxskillDamage: 150
+  description: 
+  timesToCD: 1
+  countDownTime: 5
+  forceKnockback: 3
+  Sprite: {fileID: 21300000, guid: 5f7113039abdf2346983df3281f7eaf5, type: 3}
+  SpriteStore: {fileID: 21300000, guid: 5f7113039abdf2346983df3281f7eaf5, type: 3}
+  cost: 21000
+  levelUnlock: 0
+  checkVideoUnlock: 0
+  videoUnlock: 0
+  RateLucky: 0.4407
+  checkBuy: 1
+  checkUse: 0
+  checkUseP1: 0
+  checkUseP2: 0
+  position: {x: 0.207, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: -90}
+  Scale: {x: 1.3, y: 1.3, z: 1.3}
+  weaponPrefab: {fileID: 6493050432668452177, guid: 351ab7229284f5a4dbf2af06d830cb8c,
+    type: 3}
+  checkTwoHands: 0
+  position2: {x: 0, y: 0, z: 0}
+  rotation2: {x: 0, y: 0, z: 0}
+  Scale2: {x: 0, y: 0, z: 0}
+  weaponPrefabClone: {fileID: 0}

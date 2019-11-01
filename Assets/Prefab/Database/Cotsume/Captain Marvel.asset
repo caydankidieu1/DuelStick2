@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Captain Marvel
+  m_EditorClassIdentifier: 
+  id: 7
+  HP: 1500
+  maxHPCotsume: 4500
+  cost: 24500
+  levelUnlock: 0
+  rateLuckySpin: 0.4374
+  nameCotsume: Super Woman
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 862589797058610579, guid: b260f887a4a21c044ba22481289cf001, type: 3}
+  picture: {fileID: 862589797058610579, guid: b260f887a4a21c044ba22481289cf001, type: 3}
+  Head: {fileID: 862589797058610579, guid: b260f887a4a21c044ba22481289cf001, type: 3}
+  Chest: {fileID: 323222344894959412, guid: aa8b4ae9db235ed459f9281521effa9c, type: 3}
+  Hip: {fileID: 7723006295183956425, guid: aa8b4ae9db235ed459f9281521effa9c, type: 3}
+  UpperArm_R: {fileID: -6834148930620095510, guid: aa8b4ae9db235ed459f9281521effa9c,
+    type: 3}
+  LowerArm_R: {fileID: -3560681188552721767, guid: aa8b4ae9db235ed459f9281521effa9c,
+    type: 3}
+  UpperArm_L: {fileID: 2203036675887806330, guid: aa8b4ae9db235ed459f9281521effa9c,
+    type: 3}
+  LowerArm_L: {fileID: -5628744876345987584, guid: aa8b4ae9db235ed459f9281521effa9c,
+    type: 3}
+  UpperLeg_R: {fileID: 6814213377570438265, guid: aa8b4ae9db235ed459f9281521effa9c,
+    type: 3}
+  LowerLeg_R: {fileID: -2335404409990279676, guid: aa8b4ae9db235ed459f9281521effa9c,
+    type: 3}
+  UpperLeg_L: {fileID: 4658592022125042756, guid: aa8b4ae9db235ed459f9281521effa9c,
+    type: 3}
+  LowerLeg_L: {fileID: 7030696514603637940, guid: aa8b4ae9db235ed459f9281521effa9c,
+    type: 3}

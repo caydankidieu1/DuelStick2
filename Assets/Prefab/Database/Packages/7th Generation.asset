@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e22ea94de0c14f90274a623e5513e, type: 3}
+  m_Name: 7th Generation
+  m_EditorClassIdentifier: 
+  namePackage: 7th Generation
+  cotsume:
+  - {fileID: 11400000, guid: 7fa7bef3d677fab46a282c964ad7b098, type: 2}
+  - {fileID: 11400000, guid: 816fe6ce635d1db4ca218d804ff35de0, type: 2}
+  - {fileID: 11400000, guid: 65e16e98b1c24e640994ab76c283756e, type: 2}
+  - {fileID: 11400000, guid: 19de8388ca996d64bb77358b45915f49, type: 2}
+  - {fileID: 11400000, guid: 8b3e0884e6d1e6e499d001e45c526a2a, type: 2}

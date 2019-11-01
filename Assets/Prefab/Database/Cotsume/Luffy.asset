@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Luffy
+  m_EditorClassIdentifier: 
+  id: 22
+  HP: 1470
+  maxHPCotsume: 4500
+  cost: 21000
+  levelUnlock: 0
+  rateLuckySpin: 0.507
+  nameCotsume: Rubber Man
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 21300000, guid: 888e2e6c47c86d9468f2afb3f8bab503, type: 3}
+  picture: {fileID: 21300000, guid: 888e2e6c47c86d9468f2afb3f8bab503, type: 3}
+  Head: {fileID: 21300000, guid: 888e2e6c47c86d9468f2afb3f8bab503, type: 3}
+  Chest: {fileID: 9009513955766500904, guid: d03fd0292d0507c44b05e0f2a442cf81, type: 3}
+  Hip: {fileID: -5149098688303003562, guid: d03fd0292d0507c44b05e0f2a442cf81, type: 3}
+  UpperArm_R: {fileID: -5310795411553094076, guid: d03fd0292d0507c44b05e0f2a442cf81,
+    type: 3}
+  LowerArm_R: {fileID: 8340605136372136890, guid: d03fd0292d0507c44b05e0f2a442cf81,
+    type: 3}
+  UpperArm_L: {fileID: -6599049187155239132, guid: d03fd0292d0507c44b05e0f2a442cf81,
+    type: 3}
+  LowerArm_L: {fileID: -6803500680159199091, guid: d03fd0292d0507c44b05e0f2a442cf81,
+    type: 3}
+  UpperLeg_R: {fileID: 6986903270537797584, guid: d03fd0292d0507c44b05e0f2a442cf81,
+    type: 3}
+  LowerLeg_R: {fileID: 7523911146295857663, guid: d03fd0292d0507c44b05e0f2a442cf81,
+    type: 3}
+  UpperLeg_L: {fileID: -8015664789494499411, guid: d03fd0292d0507c44b05e0f2a442cf81,
+    type: 3}
+  LowerLeg_L: {fileID: 8003398445099838232, guid: d03fd0292d0507c44b05e0f2a442cf81,
+    type: 3}

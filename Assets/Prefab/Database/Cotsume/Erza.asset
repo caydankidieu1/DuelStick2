@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Erza
+  m_EditorClassIdentifier: 
+  id: 47
+  HP: 1470
+  maxHPCotsume: 4500
+  cost: 0
+  levelUnlock: 100
+  rateLuckySpin: 0
+  nameCotsume: Angel
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 4859497431146092877, guid: 9b9100a74df27a94390fcce5957f1962, type: 3}
+  picture: {fileID: 4859497431146092877, guid: 9b9100a74df27a94390fcce5957f1962, type: 3}
+  Head: {fileID: 4859497431146092877, guid: 9b9100a74df27a94390fcce5957f1962, type: 3}
+  Chest: {fileID: -7051862314875617175, guid: 9b9100a74df27a94390fcce5957f1962, type: 3}
+  Hip: {fileID: 7456529002764721408, guid: 9b9100a74df27a94390fcce5957f1962, type: 3}
+  UpperArm_R: {fileID: 7621401379844553734, guid: 9b9100a74df27a94390fcce5957f1962,
+    type: 3}
+  LowerArm_R: {fileID: -6584978301607792785, guid: 9b9100a74df27a94390fcce5957f1962,
+    type: 3}
+  UpperArm_L: {fileID: -1688175958653955745, guid: 9b9100a74df27a94390fcce5957f1962,
+    type: 3}
+  LowerArm_L: {fileID: 7621394617446941681, guid: 9b9100a74df27a94390fcce5957f1962,
+    type: 3}
+  UpperLeg_R: {fileID: 2334967520882233516, guid: 9b9100a74df27a94390fcce5957f1962,
+    type: 3}
+  LowerLeg_R: {fileID: 4356309478301666619, guid: 9b9100a74df27a94390fcce5957f1962,
+    type: 3}
+  UpperLeg_L: {fileID: -3178159480845665401, guid: 9b9100a74df27a94390fcce5957f1962,
+    type: 3}
+  LowerLeg_L: {fileID: -5736918629662769601, guid: 9b9100a74df27a94390fcce5957f1962,
+    type: 3}

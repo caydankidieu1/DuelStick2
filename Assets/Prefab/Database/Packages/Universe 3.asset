@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e22ea94de0c14f90274a623e5513e, type: 3}
+  m_Name: Universe 3
+  m_EditorClassIdentifier: 
+  namePackage: Universe 3
+  cotsume:
+  - {fileID: 11400000, guid: c1e9effcbd83aa94a84f2d7fbf02cdf7, type: 2}
+  - {fileID: 11400000, guid: 37dcf1e35fc1e4d45bb791247ba4d9ce, type: 2}
+  - {fileID: 11400000, guid: 9030a538f2e6ed24c8f136fcd4a32ab0, type: 2}
+  - {fileID: 11400000, guid: f9e0cfd3cd1781644a6fde778b8d6fb4, type: 2}
+  - {fileID: 11400000, guid: 06c7003c684750b41b376c5f47011cbb, type: 2}
+  - {fileID: 11400000, guid: 943c5a9593475564685cde2d1be8a8dc, type: 2}

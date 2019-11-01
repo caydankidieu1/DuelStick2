@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Dracule Mihawk
+  m_EditorClassIdentifier: 
+  id: 27
+  HP: 1470
+  maxHPCotsume: 4500
+  cost: 21500
+  levelUnlock: 0
+  rateLuckySpin: 0.4958
+  nameCotsume: Black Hat
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 21300000, guid: 851d2292596057140bb733289b8c95d1, type: 3}
+  picture: {fileID: 21300000, guid: 851d2292596057140bb733289b8c95d1, type: 3}
+  Head: {fileID: 21300000, guid: 851d2292596057140bb733289b8c95d1, type: 3}
+  Chest: {fileID: 6974713561367674779, guid: 8b3f7215a2f0fdc48afb819fa30f7255, type: 3}
+  Hip: {fileID: -8408745498563041538, guid: 8b3f7215a2f0fdc48afb819fa30f7255, type: 3}
+  UpperArm_R: {fileID: -5295268565318168684, guid: 8b3f7215a2f0fdc48afb819fa30f7255,
+    type: 3}
+  LowerArm_R: {fileID: -6499873183644258669, guid: 8b3f7215a2f0fdc48afb819fa30f7255,
+    type: 3}
+  UpperArm_L: {fileID: -2435583132981041120, guid: 8b3f7215a2f0fdc48afb819fa30f7255,
+    type: 3}
+  LowerArm_L: {fileID: 4389968381569762278, guid: 8b3f7215a2f0fdc48afb819fa30f7255,
+    type: 3}
+  UpperLeg_R: {fileID: 5223740281786637762, guid: 8b3f7215a2f0fdc48afb819fa30f7255,
+    type: 3}
+  LowerLeg_R: {fileID: -5888234328093545214, guid: 8b3f7215a2f0fdc48afb819fa30f7255,
+    type: 3}
+  UpperLeg_L: {fileID: 7038174295265569263, guid: 8b3f7215a2f0fdc48afb819fa30f7255,
+    type: 3}
+  LowerLeg_L: {fileID: 2938639930331394168, guid: 8b3f7215a2f0fdc48afb819fa30f7255,
+    type: 3}

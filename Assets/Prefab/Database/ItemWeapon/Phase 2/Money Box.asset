@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d8d62de92992640bf93bde5ca6734f, type: 3}
+  m_Name: Money Box
+  m_EditorClassIdentifier: 
+  id: 52
+  nameWeapon: Money Box
+  equipSlots: 1
+  damage: 25
+  maxdamage: 150
+  skillDamage: 37
+  maxskillDamage: 150
+  description: 
+  timesToCD: 1
+  countDownTime: 5
+  forceKnockback: 4
+  Sprite: {fileID: 21300000, guid: f0f4ac9df0f2cc44ea69f43ed839c76f, type: 3}
+  SpriteStore: {fileID: 21300000, guid: f0f4ac9df0f2cc44ea69f43ed839c76f, type: 3}
+  cost: 18500
+  levelUnlock: 0
+  checkVideoUnlock: 0
+  videoUnlock: 0
+  RateLucky: 0
+  checkBuy: 0
+  checkUse: 0
+  position: {x: 0.315, y: -0.739, z: 0}
+  rotation: {x: 0, y: 0, z: -90}
+  Scale: {x: 1, y: 1, z: 1}
+  weaponPrefab: {fileID: 3170732754087816232, guid: 9d9363f4017191e4c80dc44b8dc95f90,
+    type: 3}
+  checkTwoHands: 0
+  position2: {x: 0, y: 0, z: 0}
+  rotation2: {x: 0, y: 0, z: 0}
+  Scale2: {x: 0, y: 0, z: 0}
+  weaponPrefabClone: {fileID: 0}

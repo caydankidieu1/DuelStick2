@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Zozo
+  m_EditorClassIdentifier: 
+  id: 23
+  HP: 1440
+  maxHPCotsume: 4500
+  cost: 18000
+  levelUnlock: 0
+  rateLuckySpin: 0.6197
+  nameCotsume: 3 Swords
+  checkBuy: 1
+  checkUse: 0
+  icon: {fileID: 21300000, guid: 21b71da5b90f8644d90a93ec67101eef, type: 3}
+  picture: {fileID: 21300000, guid: 21b71da5b90f8644d90a93ec67101eef, type: 3}
+  Head: {fileID: 21300000, guid: 21b71da5b90f8644d90a93ec67101eef, type: 3}
+  Chest: {fileID: 1610986430838935688, guid: 57a92599c72702e4eba0830744cce466, type: 3}
+  Hip: {fileID: -4400028419275010695, guid: 57a92599c72702e4eba0830744cce466, type: 3}
+  UpperArm_R: {fileID: -6478913958564160324, guid: 57a92599c72702e4eba0830744cce466,
+    type: 3}
+  LowerArm_R: {fileID: 2796647212185503476, guid: 57a92599c72702e4eba0830744cce466,
+    type: 3}
+  UpperArm_L: {fileID: 2717315571050582532, guid: 57a92599c72702e4eba0830744cce466,
+    type: 3}
+  LowerArm_L: {fileID: 6274647080906044020, guid: 57a92599c72702e4eba0830744cce466,
+    type: 3}
+  UpperLeg_R: {fileID: 8133225205305381794, guid: 57a92599c72702e4eba0830744cce466,
+    type: 3}
+  LowerLeg_R: {fileID: -278834496598647204, guid: 57a92599c72702e4eba0830744cce466,
+    type: 3}
+  UpperLeg_L: {fileID: 1936757081025532574, guid: 57a92599c72702e4eba0830744cce466,
+    type: 3}
+  LowerLeg_L: {fileID: 2163877759891148612, guid: 57a92599c72702e4eba0830744cce466,
+    type: 3}

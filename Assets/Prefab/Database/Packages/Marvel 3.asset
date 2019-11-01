@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e22ea94de0c14f90274a623e5513e, type: 3}
+  m_Name: Marvel 3
+  m_EditorClassIdentifier: 
+  namePackage: 
+  cotsume:
+  - {fileID: 11400000, guid: 45cc74522b1e70c46b6b6a80e688b353, type: 2}
+  - {fileID: 11400000, guid: 9503b7e9596edb34ca355c3c88818993, type: 2}
+  - {fileID: 11400000, guid: 1c27bc3c44041b147b58694fac4abbf1, type: 2}
+  - {fileID: 11400000, guid: 9f8c27f8bb7caf54d9a052cda24e7c19, type: 2}
+  - {fileID: 11400000, guid: f6668e9a2e7066945abb081614013eaa, type: 2}
+  - {fileID: 11400000, guid: 6a843806a2bb5e745bee8de964ee5cdc, type: 2}

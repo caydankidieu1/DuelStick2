@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e22ea94de0c14f90274a623e5513e, type: 3}
+  m_Name: Dragon Ball
+  m_EditorClassIdentifier: 
+  namePackage: 
+  cotsume:
+  - {fileID: 11400000, guid: 3c8db6c5afbf9c540901ae5b87e2809d, type: 2}
+  - {fileID: 11400000, guid: 26f5baeb22cfc39418e7fb656b2144a3, type: 2}
+  - {fileID: 11400000, guid: 0d340444fb97b6e4693810f60ef05a02, type: 2}
+  - {fileID: 11400000, guid: af1aec4dc53423443ae57c24764741a5, type: 2}
+  - {fileID: 11400000, guid: fdefa247309032b458f08de4f2417753, type: 2}
+  - {fileID: 11400000, guid: ff443b46a02cc8a408e66486ca46017b, type: 2}
+  - {fileID: 11400000, guid: 1c91e129c82ef4a4b956669ad38889c0, type: 2}
+  - {fileID: 11400000, guid: c8f34db420dc3a041aecb465c4c0a1e4, type: 2}

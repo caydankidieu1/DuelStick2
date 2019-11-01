@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Dared Evil
+  m_EditorClassIdentifier: 
+  id: 13
+  HP: 1200
+  maxHPCotsume: 4500
+  cost: 4000
+  levelUnlock: 0
+  rateLuckySpin: 3.1871
+  nameCotsume: Anti Devil
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: -4016646145766696677, guid: 8575438d5d210964091dc7806263bd5e, type: 3}
+  picture: {fileID: -4016646145766696677, guid: 8575438d5d210964091dc7806263bd5e,
+    type: 3}
+  Head: {fileID: -4016646145766696677, guid: 8575438d5d210964091dc7806263bd5e, type: 3}
+  Chest: {fileID: -6499000494440829149, guid: 8575438d5d210964091dc7806263bd5e, type: 3}
+  Hip: {fileID: -6369305377705819231, guid: 8575438d5d210964091dc7806263bd5e, type: 3}
+  UpperArm_R: {fileID: -7014233891074255760, guid: 8575438d5d210964091dc7806263bd5e,
+    type: 3}
+  LowerArm_R: {fileID: 7984031213793394233, guid: 8575438d5d210964091dc7806263bd5e,
+    type: 3}
+  UpperArm_L: {fileID: 6835142454590980718, guid: 8575438d5d210964091dc7806263bd5e,
+    type: 3}
+  LowerArm_L: {fileID: -1016003214211994457, guid: 8575438d5d210964091dc7806263bd5e,
+    type: 3}
+  UpperLeg_R: {fileID: -8677357423229004904, guid: 8575438d5d210964091dc7806263bd5e,
+    type: 3}
+  LowerLeg_R: {fileID: -6705282659014120054, guid: 8575438d5d210964091dc7806263bd5e,
+    type: 3}
+  UpperLeg_L: {fileID: -4503668595838044754, guid: 8575438d5d210964091dc7806263bd5e,
+    type: 3}
+  LowerLeg_L: {fileID: -1728762811546475653, guid: 8575438d5d210964091dc7806263bd5e,
+    type: 3}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Songoku
+  m_EditorClassIdentifier: 
+  id: 32
+  HP: 1500
+  maxHPCotsume: 4500
+  cost: 23500
+  levelUnlock: 0
+  rateLuckySpin: 0.4553
+  nameCotsume: Gokkun
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 7941044547543033179, guid: 6d57e29f16e5bf3478a457cb7a347724, type: 3}
+  picture: {fileID: 7941044547543033179, guid: 6d57e29f16e5bf3478a457cb7a347724, type: 3}
+  Head: {fileID: 7941044547543033179, guid: 6d57e29f16e5bf3478a457cb7a347724, type: 3}
+  Chest: {fileID: 3267803759474611822, guid: 6d57e29f16e5bf3478a457cb7a347724, type: 3}
+  Hip: {fileID: 630959316863078420, guid: 6d57e29f16e5bf3478a457cb7a347724, type: 3}
+  UpperArm_R: {fileID: 498609028321033292, guid: 6d57e29f16e5bf3478a457cb7a347724,
+    type: 3}
+  LowerArm_R: {fileID: 6109661481622398595, guid: 6d57e29f16e5bf3478a457cb7a347724,
+    type: 3}
+  UpperArm_L: {fileID: -2360483297692947923, guid: 6d57e29f16e5bf3478a457cb7a347724,
+    type: 3}
+  LowerArm_L: {fileID: -5504131036120070967, guid: 6d57e29f16e5bf3478a457cb7a347724,
+    type: 3}
+  UpperLeg_R: {fileID: -6494093478665592623, guid: 6d57e29f16e5bf3478a457cb7a347724,
+    type: 3}
+  LowerLeg_R: {fileID: 2039460957081612163, guid: 6d57e29f16e5bf3478a457cb7a347724,
+    type: 3}
+  UpperLeg_L: {fileID: -930505681223405499, guid: 6d57e29f16e5bf3478a457cb7a347724,
+    type: 3}
+  LowerLeg_L: {fileID: -4804740303524415130, guid: 6d57e29f16e5bf3478a457cb7a347724,
+    type: 3}

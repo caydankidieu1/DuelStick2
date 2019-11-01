@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840e22ea94de0c14f90274a623e5513e, type: 3}
+  m_Name: Marvel
+  m_EditorClassIdentifier: 
+  namePackage: Marvel
+  cotsume:
+  - {fileID: 11400000, guid: 9bc325bbd7270234ca7d459032ccc6e3, type: 2}
+  - {fileID: 11400000, guid: cee15c0ce2e28ab44877e1eeb70dfd2b, type: 2}
+  - {fileID: 11400000, guid: 3d5fa1396fc4e0e438cb66d7c69856f2, type: 2}
+  - {fileID: 11400000, guid: 09dd34003dac2f547b265154310527d3, type: 2}
+  - {fileID: 11400000, guid: 7c2bc2683ba30534eb9e94212dbc8ce0, type: 2}
+  - {fileID: 11400000, guid: 9702ab149a838654b90bc322a14d07cc, type: 2}
+  - {fileID: 11400000, guid: e7010caf6fa5f0e4c93f668a40962438, type: 2}
+  - {fileID: 11400000, guid: 1b059e6fc25b03e468a6aa17fb439390, type: 2}
+  - {fileID: 11400000, guid: 943c5a9593475564685cde2d1be8a8dc, type: 2}
+  - {fileID: 11400000, guid: 06c7003c684750b41b376c5f47011cbb, type: 2}

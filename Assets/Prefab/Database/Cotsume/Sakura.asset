@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Sakura
+  m_EditorClassIdentifier: 
+  id: 42
+  HP: 1290
+  maxHPCotsume: 4500
+  cost: 8500
+  levelUnlock: 0
+  rateLuckySpin: 1.3944
+  nameCotsume: Peach
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 21300000, guid: 782b93a99166be943a4c0a7531e8c1fd, type: 3}
+  picture: {fileID: 21300000, guid: 782b93a99166be943a4c0a7531e8c1fd, type: 3}
+  Head: {fileID: 21300000, guid: 782b93a99166be943a4c0a7531e8c1fd, type: 3}
+  Chest: {fileID: -5744165009855979809, guid: f3056c504a581ab4aa442c377bff535c, type: 3}
+  Hip: {fileID: 3911156921426491626, guid: f3056c504a581ab4aa442c377bff535c, type: 3}
+  UpperArm_R: {fileID: -6554425587419877245, guid: f3056c504a581ab4aa442c377bff535c,
+    type: 3}
+  LowerArm_R: {fileID: -2110109100979030645, guid: f3056c504a581ab4aa442c377bff535c,
+    type: 3}
+  UpperArm_L: {fileID: -3689429422371910898, guid: f3056c504a581ab4aa442c377bff535c,
+    type: 3}
+  LowerArm_L: {fileID: 769037397043033606, guid: f3056c504a581ab4aa442c377bff535c,
+    type: 3}
+  UpperLeg_R: {fileID: 7900574130695682013, guid: f3056c504a581ab4aa442c377bff535c,
+    type: 3}
+  LowerLeg_R: {fileID: -9202738320286382321, guid: f3056c504a581ab4aa442c377bff535c,
+    type: 3}
+  UpperLeg_L: {fileID: -2493592856653211932, guid: f3056c504a581ab4aa442c377bff535c,
+    type: 3}
+  LowerLeg_L: {fileID: 6381242924163353874, guid: f3056c504a581ab4aa442c377bff535c,
+    type: 3}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Joker
+  m_EditorClassIdentifier: 
+  id: 50
+  HP: 1200
+  maxHPCotsume: 4500
+  cost: 4500
+  levelUnlock: 0
+  rateLuckySpin: 2.7887
+  nameCotsume: Smile
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: -4998455143283755344, guid: 17b1b0e9bd649324ca4168e88165050a, type: 3}
+  picture: {fileID: -4998455143283755344, guid: 17b1b0e9bd649324ca4168e88165050a,
+    type: 3}
+  Head: {fileID: -4998455143283755344, guid: 17b1b0e9bd649324ca4168e88165050a, type: 3}
+  Chest: {fileID: 221713276233250838, guid: 17b1b0e9bd649324ca4168e88165050a, type: 3}
+  Hip: {fileID: -8498688031041048514, guid: 17b1b0e9bd649324ca4168e88165050a, type: 3}
+  UpperArm_R: {fileID: 1834056623088086326, guid: 17b1b0e9bd649324ca4168e88165050a,
+    type: 3}
+  LowerArm_R: {fileID: 7073334984931714202, guid: 17b1b0e9bd649324ca4168e88165050a,
+    type: 3}
+  UpperArm_L: {fileID: 7998245261627669462, guid: 17b1b0e9bd649324ca4168e88165050a,
+    type: 3}
+  LowerArm_L: {fileID: 1572804749896626247, guid: 17b1b0e9bd649324ca4168e88165050a,
+    type: 3}
+  UpperLeg_R: {fileID: 3525031735207423445, guid: 17b1b0e9bd649324ca4168e88165050a,
+    type: 3}
+  LowerLeg_R: {fileID: 8162013821955981271, guid: 17b1b0e9bd649324ca4168e88165050a,
+    type: 3}
+  UpperLeg_L: {fileID: -1944124617230592172, guid: 17b1b0e9bd649324ca4168e88165050a,
+    type: 3}
+  LowerLeg_L: {fileID: 5871940331929637747, guid: 17b1b0e9bd649324ca4168e88165050a,
+    type: 3}

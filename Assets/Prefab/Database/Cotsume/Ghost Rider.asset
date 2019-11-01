@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Ghost Rider
+  m_EditorClassIdentifier: 
+  id: 19
+  HP: 1320
+  maxHPCotsume: 4500
+  cost: 10000
+  levelUnlock: 0
+  rateLuckySpin: 2.231
+  nameCotsume: Fire Skull
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 2490624967594216466, guid: bbea8420ef5d62a46b6a6133211ccf57, type: 3}
+  picture: {fileID: 2490624967594216466, guid: bbea8420ef5d62a46b6a6133211ccf57, type: 3}
+  Head: {fileID: 2490624967594216466, guid: bbea8420ef5d62a46b6a6133211ccf57, type: 3}
+  Chest: {fileID: -8205068831528784590, guid: bbea8420ef5d62a46b6a6133211ccf57, type: 3}
+  Hip: {fileID: 5319382575041230757, guid: bbea8420ef5d62a46b6a6133211ccf57, type: 3}
+  UpperArm_R: {fileID: -9167016594690501473, guid: bbea8420ef5d62a46b6a6133211ccf57,
+    type: 3}
+  LowerArm_R: {fileID: 4857047665880404196, guid: bbea8420ef5d62a46b6a6133211ccf57,
+    type: 3}
+  UpperArm_L: {fileID: -8504185246427770588, guid: bbea8420ef5d62a46b6a6133211ccf57,
+    type: 3}
+  LowerArm_L: {fileID: -2465894943010191858, guid: bbea8420ef5d62a46b6a6133211ccf57,
+    type: 3}
+  UpperLeg_R: {fileID: -7846836040537040267, guid: bbea8420ef5d62a46b6a6133211ccf57,
+    type: 3}
+  LowerLeg_R: {fileID: -4250063424268149102, guid: bbea8420ef5d62a46b6a6133211ccf57,
+    type: 3}
+  UpperLeg_L: {fileID: 3402208094541089358, guid: bbea8420ef5d62a46b6a6133211ccf57,
+    type: 3}
+  LowerLeg_L: {fileID: -6983140780873499355, guid: bbea8420ef5d62a46b6a6133211ccf57,
+    type: 3}

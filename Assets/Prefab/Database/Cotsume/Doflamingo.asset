@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Doflamingo
+  m_EditorClassIdentifier: 
+  id: 26
+  HP: 1410
+  maxHPCotsume: 4500
+  cost: 15500
+  levelUnlock: 0
+  rateLuckySpin: 0.7197
+  nameCotsume: Pink Lover
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 21300000, guid: f3da66892d550874a9ce1a91aa7e00fb, type: 3}
+  picture: {fileID: 21300000, guid: f3da66892d550874a9ce1a91aa7e00fb, type: 3}
+  Head: {fileID: 21300000, guid: f3da66892d550874a9ce1a91aa7e00fb, type: 3}
+  Chest: {fileID: -3124132050885256707, guid: db29b52fcf9ffcf47bf340652b70250b, type: 3}
+  Hip: {fileID: -5098606350282294851, guid: db29b52fcf9ffcf47bf340652b70250b, type: 3}
+  UpperArm_R: {fileID: 8039744771573225990, guid: db29b52fcf9ffcf47bf340652b70250b,
+    type: 3}
+  LowerArm_R: {fileID: 1394280433163407760, guid: db29b52fcf9ffcf47bf340652b70250b,
+    type: 3}
+  UpperArm_L: {fileID: -3536571528761112355, guid: db29b52fcf9ffcf47bf340652b70250b,
+    type: 3}
+  LowerArm_L: {fileID: 9087022817421566918, guid: db29b52fcf9ffcf47bf340652b70250b,
+    type: 3}
+  UpperLeg_R: {fileID: -686780748294101837, guid: db29b52fcf9ffcf47bf340652b70250b,
+    type: 3}
+  LowerLeg_R: {fileID: -5090588987383108903, guid: db29b52fcf9ffcf47bf340652b70250b,
+    type: 3}
+  UpperLeg_L: {fileID: -329350131969817546, guid: db29b52fcf9ffcf47bf340652b70250b,
+    type: 3}
+  LowerLeg_L: {fileID: 1742866758718667853, guid: db29b52fcf9ffcf47bf340652b70250b,
+    type: 3}

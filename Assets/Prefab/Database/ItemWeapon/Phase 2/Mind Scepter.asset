@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7d8d62de92992640bf93bde5ca6734f, type: 3}
+  m_Name: Mind Scepter
+  m_EditorClassIdentifier: 
+  id: 50
+  nameWeapon: Mind Scepter
+  equipSlots: 1
+  damage: 22
+  maxdamage: 150
+  skillDamage: 33
+  maxskillDamage: 150
+  description: 
+  timesToCD: 1
+  countDownTime: 3
+  forceKnockback: 0
+  Sprite: {fileID: 21300000, guid: 710cbd57f8d301245a45ad307ca36ecb, type: 3}
+  SpriteStore: {fileID: 21300000, guid: 710cbd57f8d301245a45ad307ca36ecb, type: 3}
+  cost: 17000
+  levelUnlock: 0
+  checkVideoUnlock: 0
+  videoUnlock: 0
+  RateLucky: 0
+  checkBuy: 0
+  checkUse: 0
+  position: {x: 0.1, y: -0.98, z: 0}
+  rotation: {x: 0, y: 0, z: -90}
+  Scale: {x: 1, y: 1, z: 1}
+  weaponPrefab: {fileID: 68635977638368675, guid: 3261ec6b0af750c429632ead7e3bf98f,
+    type: 3}
+  checkTwoHands: 0
+  position2: {x: 0, y: 0, z: 0}
+  rotation2: {x: 0, y: 0, z: 0}
+  Scale2: {x: 0, y: 0, z: 0}
+  weaponPrefabClone: {fileID: 0}

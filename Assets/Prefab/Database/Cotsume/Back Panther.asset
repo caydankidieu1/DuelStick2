@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e6477589cacae4ca915ea9d57e134e, type: 3}
+  m_Name: Back Panther
+  m_EditorClassIdentifier: 
+  id: 9
+  HP: 1380
+  maxHPCotsume: 4500
+  cost: 12500
+  levelUnlock: 0
+  rateLuckySpin: 0.8924
+  nameCotsume: Night Claw
+  checkBuy: 0
+  checkUse: 0
+  icon: {fileID: 21300000, guid: 6f98a036c2417984e85ee4229fa5d027, type: 3}
+  picture: {fileID: 21300000, guid: 6f98a036c2417984e85ee4229fa5d027, type: 3}
+  Head: {fileID: 21300000, guid: 6f98a036c2417984e85ee4229fa5d027, type: 3}
+  Chest: {fileID: -4101647360053597234, guid: 8b1bd30d63d69864dbe7f2e4df529eab, type: 3}
+  Hip: {fileID: 3905165552564358107, guid: 8b1bd30d63d69864dbe7f2e4df529eab, type: 3}
+  UpperArm_R: {fileID: -2261454705917802891, guid: 8b1bd30d63d69864dbe7f2e4df529eab,
+    type: 3}
+  LowerArm_R: {fileID: -3569350006950302678, guid: 8b1bd30d63d69864dbe7f2e4df529eab,
+    type: 3}
+  UpperArm_L: {fileID: -3619309034366510861, guid: 8b1bd30d63d69864dbe7f2e4df529eab,
+    type: 3}
+  LowerArm_L: {fileID: 3445945977775868972, guid: 8b1bd30d63d69864dbe7f2e4df529eab,
+    type: 3}
+  UpperLeg_R: {fileID: -4880330507066947504, guid: 8b1bd30d63d69864dbe7f2e4df529eab,
+    type: 3}
+  LowerLeg_R: {fileID: -2865050034490810842, guid: 8b1bd30d63d69864dbe7f2e4df529eab,
+    type: 3}
+  UpperLeg_L: {fileID: 7855992458735804485, guid: 8b1bd30d63d69864dbe7f2e4df529eab,
+    type: 3}
+  LowerLeg_L: {fileID: -4568862158710336686, guid: 8b1bd30d63d69864dbe7f2e4df529eab,
+    type: 3}
