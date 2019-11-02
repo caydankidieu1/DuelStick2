@@ -145,7 +145,7 @@ MonoBehaviour:
   parent: {fileID: 3516810625653977505}
   child: {fileID: 0}
   rigi: {fileID: 6160398293788854984}
-  force: 10
+  force: 3
   timeToDestroy: 1
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!96 &3478241746635443384
@@ -376,7 +376,7 @@ MonoBehaviour:
   parent: {fileID: 3516810625653977505}
   child: {fileID: 0}
   rigi: {fileID: 1677711537513273525}
-  force: 10
+  force: 3
   timeToDestroy: 1
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!50 &1677711537513273525
@@ -703,7 +703,7 @@ MonoBehaviour:
   parent: {fileID: 3516810625653977505}
   child: {fileID: 0}
   rigi: {fileID: 6159376216921251378}
-  force: 10
+  force: 3
   timeToDestroy: 1
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!61 &4710201527978390871
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   parent: {fileID: 3516810625653977505}
   child: {fileID: 0}
   rigi: {fileID: 1885813777250859989}
-  force: 10
+  force: 3
   timeToDestroy: 1
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!96 &2493732639095620767
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   parent: {fileID: 3516810625653977505}
   child: {fileID: 0}
   rigi: {fileID: 7328575942125487664}
-  force: 10
+  force: 3
   timeToDestroy: 1
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!96 &2891100582771428530

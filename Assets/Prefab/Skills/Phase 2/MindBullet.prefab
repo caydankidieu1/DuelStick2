@@ -251,7 +251,7 @@ MonoBehaviour:
   rigi: {fileID: 1945406540161422916}
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
   Clone: {fileID: 1945406540349997724}
-  force: 25
+  force: 3.5
   forceRotate: 0
   forceRotateMin: 0
   forceRotateMax: 0
@@ -360,10 +360,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1945406540161422918}
     m_Modifications:
-    - target: {fileID: 184014, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
-      propertyPath: m_Name
-      value: BlueWarpGateDirectional
-      objectReference: {fileID: 0}
     - target: {fileID: 480186, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -419,6 +415,10 @@ PrefabInstance:
     - target: {fileID: 480186, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 184014, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
+      propertyPath: m_Name
+      value: BlueWarpGateDirectional
       objectReference: {fileID: 0}
     - target: {fileID: 19853078, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
       propertyPath: InitialModule.startSize.scalar

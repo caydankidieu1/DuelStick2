@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 586971560774380}
   m_Layer: 0
   m_Name: Moon Bullet
-  m_TagString: skillE
+  m_TagString: skillP
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

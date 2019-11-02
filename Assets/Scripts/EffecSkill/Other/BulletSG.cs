@@ -31,11 +31,13 @@ public class BulletSG : MonoBehaviour
         }
     }
 
-    private void Update()
+    void Start()
     {
-        rigi.velocity = (direction * force * Time.deltaTime * 100);
+        //rigi.velocity = (direction * force * Time.deltaTime * 100);
+        rigi.AddForce(direction * force * 10, ForceMode2D.Impulse);
         StartCoroutine(wait());
     }
+
     IEnumerator wait()
     {
         yield return new WaitForSeconds(timeToDestroy);

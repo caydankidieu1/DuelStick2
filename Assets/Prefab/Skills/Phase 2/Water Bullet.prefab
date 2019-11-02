@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3638382339664749930}
   m_Layer: 0
   m_Name: Water Bullet
-  m_TagString: skillE
+  m_TagString: skillP
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   rigi: {fileID: 7202335219589456452}
   prefab: {fileID: 5251408344399197286, guid: dedb0664c610e0b4ea9da9d4d324b992, type: 3}
   Clone: {fileID: 8299249160703529421}
-  force: 15
+  force: 2.5
   forceRotate: 0
   forceRotateMin: 0
   forceRotateMax: 3.5

@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigi: {fileID: 1331076880668673170}
-  timeToDestroy: 10
+  timeToDestroy: 7
   target: {fileID: 0}
   force: 40
   checkGoBack: 0

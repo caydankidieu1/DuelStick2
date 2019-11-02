@@ -64,8 +64,10 @@ public class Local : MonoBehaviour
     private int testvalue;
     private void Start()
     {
+        battleUI.hidePopUp();
         secondchange = false;
         system.secondChange = false;
+        system.trueDeath = false;
         system.loser = false;
         system.victory = false;
 
@@ -251,7 +253,11 @@ public class Local : MonoBehaviour
     void sumHit()
     {
         sumHits++;
-        comboTestTime = system.timeCombo;
+        if (system)
+        {
+            comboTestTime = system.timeCombo;
+        }
+        
 
         if (comboTestTime >= 0)
         {

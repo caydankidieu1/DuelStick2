@@ -51,9 +51,11 @@ public class LocalForSurvival : MonoBehaviour
 
     private void Start()
     {
+        battleUI.hidePopUp();
         sumBossCreate = 0;
         createBoss = false;
         secondchange = false;
+        system.trueDeath = false;
         system.secondChange = false;
         system.loser = false;
         system.victory = false;

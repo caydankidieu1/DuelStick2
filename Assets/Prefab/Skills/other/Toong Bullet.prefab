@@ -146,7 +146,7 @@ MonoBehaviour:
   rigi: {fileID: 4903248826197964096}
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
   Clone: {fileID: 6112748428603295433}
-  force: 40
+  force: 3
   forceRotate: 0
   forceRotateMin: -2
   forceRotateMax: 2

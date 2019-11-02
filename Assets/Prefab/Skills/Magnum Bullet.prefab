@@ -258,7 +258,7 @@ MonoBehaviour:
   parent: {fileID: 7132364458357710933}
   child: {fileID: 0}
   rigi: {fileID: 667850152503375599}
-  force: 15
+  force: 3
   timeToDestroy: 1.5
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!1 &3772021519591786207
@@ -519,7 +519,7 @@ MonoBehaviour:
   parent: {fileID: 7132364458357710933}
   child: {fileID: 0}
   rigi: {fileID: 4409039148491068908}
-  force: 15
+  force: 3
   timeToDestroy: 1.5
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!1 &4064514148527124261
@@ -10443,7 +10443,7 @@ MonoBehaviour:
   parent: {fileID: 7132364458357710933}
   child: {fileID: 0}
   rigi: {fileID: 5517759625507817061}
-  force: 15
+  force: 3
   timeToDestroy: 1.5
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!1 &7132364458357710933
@@ -10802,7 +10802,7 @@ MonoBehaviour:
   parent: {fileID: 7132364458357710933}
   child: {fileID: 0}
   rigi: {fileID: 5516617475097545523}
-  force: 15
+  force: 3
   timeToDestroy: 1.5
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!1 &7821804258702630827
@@ -11182,7 +11182,7 @@ MonoBehaviour:
   parent: {fileID: 7132364458357710933}
   child: {fileID: 0}
   rigi: {fileID: 9006342616141227925}
-  force: 15
+  force: 3
   timeToDestroy: 1.5
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}
 --- !u!1 &8572133353834407051
@@ -11443,6 +11443,6 @@ MonoBehaviour:
   parent: {fileID: 7132364458357710933}
   child: {fileID: 0}
   rigi: {fileID: 5126620650096174788}
-  force: 15
+  force: 3
   timeToDestroy: 1.5
   prefab: {fileID: 1808690833220360428, guid: 9a433630abc18694da03db119991b4e6, type: 3}

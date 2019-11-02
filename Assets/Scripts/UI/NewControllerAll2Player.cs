@@ -342,7 +342,6 @@ public class NewControllerAll2Player : MonoBehaviour
 
         panelHide.SetActive(true);
     }
-
     void UnActivelAll()
     {
         POPUP1.SetActive(false);
@@ -356,6 +355,53 @@ public class NewControllerAll2Player : MonoBehaviour
 
         panelHide.SetActive(false);
     }
+    void showWeaponUse()
+    {
+        for (int i = 0; i < weaponUI.weapon.Length;i++)
+        {
+            if (weaponUI.weapon[i].checkUseP1)
+            {
+                imagePlayerSelectW1.sprite = weaponUI.weapon[i].Sprite;
+                namePlayerSelectW1.text = weaponUI.weapon[i].nameWeapon;
+            }
+
+            if (weaponUI.weapon[i].checkUseP2)
+            {
+                imagePlayerSelectW2.sprite = weaponUI.weapon[i].Sprite;
+                namePlayerSelectW2.text = weaponUI.weapon[i].nameWeapon;
+            }
+        }
+
+        for (int i = 0; i < skinsUI.cotsume.Length; i++)
+        {
+            if (skinsUI.cotsume[i].checkUseP1)
+            {
+                imagePlayerSelect1.sprite = skinsUI.cotsume[i].icon;
+                namePlayerSelect1.text = skinsUI.cotsume[i].nameCotsume;
+            }
+
+            if (skinsUI.cotsume[i].checkUseP2)
+            {
+                imagePlayerSelect2.sprite = skinsUI.cotsume[i].icon;
+                namePlayerSelect2.text = skinsUI.cotsume[i].nameCotsume;
+            }
+        }
+
+        imagePlayerSelectW1.type = Image.Type.Simple;
+        imagePlayerSelectW2.type = Image.Type.Simple;
+        imagePlayerSelect1.type = Image.Type.Simple;
+        imagePlayerSelect2.type = Image.Type.Simple;
+
+        imagePlayerSelectW1.SetNativeSize();
+        imagePlayerSelectW2.SetNativeSize();
+        imagePlayerSelect1.SetNativeSize();
+        imagePlayerSelect2.SetNativeSize();
+
+        imagePlayerSelectW1.type = Image.Type.Sliced;
+        imagePlayerSelectW2.type = Image.Type.Sliced;
+        imagePlayerSelect1.type = Image.Type.Sliced;
+        imagePlayerSelect2.type = Image.Type.Sliced;
+    }
     private void OnEnable()
     {
         checkSelect1 = false;
@@ -368,6 +414,8 @@ public class NewControllerAll2Player : MonoBehaviour
         POPUPW2.SetActive(false);
 
         panelHide.SetActive(false);
+
+        showWeaponUse();
     }
     private void OnDisable()
     {

@@ -36,6 +36,8 @@ public class HideClone : MonoBehaviour
         {
             gameObject.tag = parent.tag;
         }
+
+        rigi.AddForce(transform.right * force * 10, ForceMode2D.Impulse);
     }
 
     private void Update()
@@ -45,7 +47,7 @@ public class HideClone : MonoBehaviour
             transform.Rotate(Vector3.back, forceRotate * Time.deltaTime * 10);
         }
 
-        rigi.velocity = (transform.right * force * Time.deltaTime * 30);
+        //rigi.velocity = (transform.right * force * Time.deltaTime * 30);
 
         activelExploreNow -= Time.deltaTime;
         if (exploreNow && activelExploreNow <= 0)

@@ -32,8 +32,6 @@ public class WeaponController : MonoBehaviour
     public float timeScale = 1f;
     [Space]
     public bool checkMagnum;
-    [Space]
-    public GameObject VFXOnGround;
 
     [Header("Info weapon 2")]
     public CloneWeaponController rightHands;
@@ -105,11 +103,6 @@ public class WeaponController : MonoBehaviour
         GetComponent<Collider2D>().enabled = true;
 
         numberFireAccept = weapon.timesToCD;
-        if (VFXOnGround)
-        {
-            VFXOnGround.SetActive(false);
-        }
-
 
         if (playerManager != null)
         {
@@ -229,10 +222,6 @@ public class WeaponController : MonoBehaviour
                     gameObject.layer = 0;
                 }
 
-                if (VFXOnGround)
-                {
-                    VFXOnGround.SetActive(false);
-                }
             }
             else if (item.CompareTag("enemy"))
             {
@@ -255,11 +244,6 @@ public class WeaponController : MonoBehaviour
                 {
                     gameObject.tag = "ground";
                     gameObject.layer = 0;
-                }
-
-                if (VFXOnGround)
-                {
-                    VFXOnGround.SetActive(false);
                 }
             }
         }
@@ -322,11 +306,6 @@ public class WeaponController : MonoBehaviour
             for (int i = 0; i < allCol.Length; i++)
             {
                 allCol[i].isTrigger = true;
-            }
-
-            if (VFXOnGround)
-            {
-                VFXOnGround.SetActive(true);
             }
 
             Destroy(rigi);

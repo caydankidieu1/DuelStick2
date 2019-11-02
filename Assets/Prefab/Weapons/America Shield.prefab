@@ -63,7 +63,6 @@ Transform:
   m_Children:
   - {fileID: 1061957523388860811}
   - {fileID: 4915786584685774385}
-  - {fileID: 9181426042756949784}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
@@ -193,7 +192,6 @@ MonoBehaviour:
   scaleNumber: 3
   timeScale: 1
   checkMagnum: 0
-  VFXOnGround: {fileID: 9181426042756791876}
   rightHands: {fileID: 0}
   FlameWeapon: {fileID: 0}
   timeToHide: 0
@@ -208,87 +206,6 @@ MonoBehaviour:
   checkP1: 0
   checkP2: 0
   ai: {fileID: 0}
---- !u!1001 &1705571451042672617
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 530354268163162666}
-    m_Modifications:
-    - target: {fileID: 7548475415295938989, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_Name
-      value: BluePortalNewVersion
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: aab6df6df6aefb041a7a2ade556c0660, type: 3}
---- !u!1 &9181426042756791876 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7548475415295938989, guid: aab6df6df6aefb041a7a2ade556c0660,
-    type: 3}
-  m_PrefabInstance: {fileID: 1705571451042672617}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &9181426042756949784 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7548475415296100593, guid: aab6df6df6aefb041a7a2ade556c0660,
-    type: 3}
-  m_PrefabInstance: {fileID: 1705571451042672617}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4915786584685847895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -296,14 +213,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 530354268163162666}
     m_Modifications:
-    - target: {fileID: 142952, guid: cbf9ba8fd3103a042b4acd434deb85bb, type: 3}
-      propertyPath: m_Name
-      value: RedWarpGateDirectional
-      objectReference: {fileID: 0}
-    - target: {fileID: 142952, guid: cbf9ba8fd3103a042b4acd434deb85bb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 467814, guid: cbf9ba8fd3103a042b4acd434deb85bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.235
@@ -347,6 +256,14 @@ PrefabInstance:
     - target: {fileID: 467814, guid: cbf9ba8fd3103a042b4acd434deb85bb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 142952, guid: cbf9ba8fd3103a042b4acd434deb85bb, type: 3}
+      propertyPath: m_Name
+      value: RedWarpGateDirectional
+      objectReference: {fileID: 0}
+    - target: {fileID: 142952, guid: cbf9ba8fd3103a042b4acd434deb85bb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbf9ba8fd3103a042b4acd434deb85bb, type: 3}
