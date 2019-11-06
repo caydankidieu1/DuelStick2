@@ -4785,7 +4785,7 @@ GameObject:
   - component: {fileID: 1424131006658950204}
   m_Layer: 0
   m_Name: shuriken Bullet
-  m_TagString: skillP
+  m_TagString: skillE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

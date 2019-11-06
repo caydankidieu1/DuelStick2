@@ -18,6 +18,8 @@ public class CheckPhase : MonoBehaviour
     public Color defaultColor;
     public Color selectColor;
 
+    [Header("Controller")] public ControllerAll1P controllerAll;
+
 
     void Start()
     {
@@ -74,6 +76,7 @@ public class CheckPhase : MonoBehaviour
         for (int i = 0; i < phase.Length; i++)
         {
             phase[i].endLess = endLess;
+            phase[i].controllerAll = controllerAll;
         }
     }
 }

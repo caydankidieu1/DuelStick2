@@ -54,6 +54,8 @@ public class Phase : MonoBehaviour
     [Header("END LESS")]
     public bool endLess;
 
+    public ControllerAll1P controllerAll;
+
     private void Start()
     {
        /* star1.gameObject.SetActive(false);
@@ -167,6 +169,7 @@ public class Phase : MonoBehaviour
 
         var value = map.GetComponent<Local>();
         value.ENDLESS = endLess;
+        value.controllerAll = controllerAll;
     }
     public void ReloadWave()//test
     {
@@ -185,6 +188,7 @@ public class Phase : MonoBehaviour
 
         var value = map.GetComponent<Local>();
         value.ENDLESS = endLess;
+        value.controllerAll = controllerAll;
     }
     public void RivivalPlayer()//test
     {
@@ -212,6 +216,7 @@ public class Phase : MonoBehaviour
 
         var value = map.GetComponent<Local>();
         value.ENDLESS = endLess;
+        value.controllerAll = controllerAll;
     }
     public void RivivalPlayerClone()//test
     {

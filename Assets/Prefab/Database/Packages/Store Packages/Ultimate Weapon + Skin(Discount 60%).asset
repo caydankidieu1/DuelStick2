@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 18
   name: Ultimate Weapon + Skin
-  description: 'Full Weapon + Skin
+  description: 'Full Weapons + Skins
 
 '
   cost: 19.99
@@ -73,7 +73,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 02704baa2cda68f4f8d959d9c13c63f7, type: 2}
   - {fileID: 11400000, guid: d1b5ac9a3b32daf4ba61ed9998ade463, type: 2}
   - {fileID: 11400000, guid: 9ef39f6b91011144bacc9ba46316e4f8, type: 2}
-  - {fileID: 11400000, guid: 778b96542cc3e0042a460af4a29f055b, type: 2}
+  - {fileID: 0}
   skins:
   - {fileID: 11400000, guid: 3bc811f3a57b51e428f6b7c2e9505146, type: 2}
   - {fileID: 11400000, guid: da2f0370b8575694aaa1206b78285e85, type: 2}

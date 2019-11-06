@@ -31,7 +31,7 @@ public class NewControllerBtnSkins : MonoBehaviour
             if (skins.checkBuy)
             {
                 mySeft.sprite = borderBuy;
-                name.text = skins.name;
+                name.text = skins.nameCotsume;
 
                 if (skins.checkUseP1)
                 {
@@ -57,7 +57,7 @@ public class NewControllerBtnSkins : MonoBehaviour
             if (skins.checkBuy)
             {
                 mySeft.sprite = borderBuy;
-                name.text = skins.name;
+                name.text = skins.nameCotsume;
 
                 if (skins.checkUseP2)
                 {
@@ -99,7 +99,7 @@ public class NewControllerBtnSkins : MonoBehaviour
         {
             if (skins.checkBuy)
             {
-                skinsUI.ResetAllWeaponP1();
+                skinsUI.ResetAllCotsumeP1();
                 skins.checkUseP1 = true;
                 skinsUI.SaveSkin();
                 skinsUI.AutoEquipSkin();
@@ -108,10 +108,26 @@ public class NewControllerBtnSkins : MonoBehaviour
             {
                 skinsUI.SelectDefaultWeapon();
                 skinsUI.AutoEquipSkin();
+
+                for (int i = 0; i < skinsUI.cotsume.Length; i++)
+                {
+                    if (skinsUI.cotsume[i].id == 1)
+                    {
+                        parent.sprite = skinsUI.cotsume[i].Head;
+                        nameSkinParent.text = skinsUI.cotsume[i].nameCotsume;
+
+                        var info = parent.GetComponent<RectTransform>();
+                        info.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+
+                        parent.type = Image.Type.Simple;
+                        parent.SetNativeSize();
+                        parent.type = Image.Type.Sliced;
+                    }
+                }
             }
 
 
-            if (checkP1)
+            if (checkP1 && skins.checkBuy)
             {
                 parent.sprite = skins.Head;
                 nameSkinParent.text = skins.nameCotsume;
@@ -144,10 +160,26 @@ public class NewControllerBtnSkins : MonoBehaviour
             {
                 skinsUI.SelectDefaultWeapon2();
                 skinsUI.AutoEquipSkin();
+
+                for (int i = 0; i < skinsUI.cotsume.Length; i++)
+                {
+                    if (skinsUI.cotsume[i].id == 1)
+                    {
+                        parent.sprite = skinsUI.cotsume[i].Head;
+                        nameSkinParent.text = skinsUI.cotsume[i].nameCotsume;
+
+                        var info = parent.GetComponent<RectTransform>();
+                        info.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+
+                        parent.type = Image.Type.Simple;
+                        parent.SetNativeSize();
+                        parent.type = Image.Type.Sliced;
+                    }
+                }
             }
 
 
-            if (checkP2)
+            if (checkP2 && skins.checkBuy)
             {
                 parent.sprite = skins.Head;
                 nameSkinParent.text = skins.nameCotsume;

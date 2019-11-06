@@ -83,11 +83,17 @@ public class LocalForSurvival : MonoBehaviour
         if (sumKills >= limitOneWave)
         {
             HpStart += (int)((HpStart * 10) / 100);
-            DamageStart += (int)((DamageStart * 5) / 100);
+            var testDamageNormal =  Mathf.Round((DamageStart * 0.05f));
+            if (testDamageNormal == 0)
+            {
+                testDamageNormal = 1;
+            }
+            Debug.Log(test);
+            DamageStart += (int)(testDamageNormal);
 
             HPStartBoss += (int)((HPStartBoss * 15) / 100);
             DamageStartBoss += (int)((DamageStartBoss * 10) / 100);
-
+            
             createBoss = true;
             limitOneWave += 5;
         }
@@ -193,13 +199,6 @@ public class LocalForSurvival : MonoBehaviour
         infoWeapon.damageWeaponBase = DamageStart;
         infoWeapon.damageWeaponSkill = DamageStart;
 
-        /*var test = Random.Range(0, 100);
-        if (test >= 90)
-        {
-            T.gameObject.transform.localScale = new Vector3(2, 2, 2);
-            T.GetComponent<CotsumeControllerEnemy>().HP = HpStart * 5;
-            T.GetComponent<CreateWeaponE>().idItem = "01";
-        }*/
         if (createBoss)
         {
             sumBossCreate++;

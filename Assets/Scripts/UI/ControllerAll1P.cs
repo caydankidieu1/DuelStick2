@@ -14,6 +14,8 @@ public class ControllerAll1P : MonoBehaviour
     [Header("Info From SkinUI")]
     public SkinUI skinsUI;
 
+    public WeaponStoreUI weaponUI;
+
     [Header("Info Pop - Up")]
     public bool checkSelect;
     public GameObject POPUP;
@@ -22,6 +24,7 @@ public class ControllerAll1P : MonoBehaviour
     public Sprite b2;
     public GameObject animationTest;
     public GameObject panelHide;
+    public CheckPhase checkPhase;
 
     void Start()
     {
@@ -98,7 +101,6 @@ public class ControllerAll1P : MonoBehaviour
     public void StartRandom()
     {
         List<Cotsume> All = new List<Cotsume>();
-
         for (int i = 0; i < skinsUI.cotsume.Length; i++)
         {
             if (skinsUI.cotsume[i].checkBuy)
@@ -107,7 +109,7 @@ public class ControllerAll1P : MonoBehaviour
             }
         }
 
-        skinsUI.ResetAllWeaponP1();
+        skinsUI.ResetAllCotsumeP1();
 
         var value = Random.Range(0, All.Count - 1);
         var id = All[value].id;
@@ -119,14 +121,36 @@ public class ControllerAll1P : MonoBehaviour
             }
         }
 
-        imagePlayerSelect.sprite = All[value].Head;
-        namePlayerSelect.text = All[value].nameCotsume;
-
-        imagePlayerSelect.type = Image.Type.Simple;
-        imagePlayerSelect.SetNativeSize();
-        imagePlayerSelect.type = Image.Type.Sliced;
-
+        skinsUI.AutoEquipSkin();
         skinsUI.SaveSkin();
+
+        //------------------------------------------------------------------------------------
+        List<Weapon> AllWeapon = new List<Weapon>();
+        for (int i = 0; i < weaponUI.weapon.Length; i++)
+        {
+            if (weaponUI.weapon[i].checkBuy)
+            {
+                AllWeapon.Add(weaponUI.weapon[i]);
+            }
+        }
+
+        weaponUI.ResetAllWeaponP1();
+
+        var valueW = Random.Range(0, AllWeapon.Count - 1);
+        var idW = AllWeapon[valueW].id;
+        for (int i = 0; i < weaponUI.weapon.Length; i++)
+        {
+            if (weaponUI.weapon[i].id == idW)
+            {
+                weaponUI.weapon[i].checkUseP1 = true;
+            }
+        }
+        weaponUI.SaveWeapon();
+
+        //---------------------------------------------------------------------------------------
+
+        var randomMap = Random.Range(0, checkPhase.btnWaver.Length - 1);
+        checkPhase.btnWaver[randomMap].GetComponent<Phase>().ReloadWave();
     }
     void showFirstLog()
     {

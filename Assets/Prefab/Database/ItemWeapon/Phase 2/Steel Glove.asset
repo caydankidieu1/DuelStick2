@@ -22,7 +22,7 @@ MonoBehaviour:
   description: 
   timesToCD: 1
   countDownTime: 10
-  forceKnockback: 4.5
+  forceKnockback: 3.5
   Sprite: {fileID: 21300000, guid: cf98e5b631e33994fa0a90577aa54280, type: 3}
   SpriteStore: {fileID: 21300000, guid: cf98e5b631e33994fa0a90577aa54280, type: 3}
   cost: 21500
@@ -32,6 +32,8 @@ MonoBehaviour:
   RateLucky: 0.4321
   checkBuy: 0
   checkUse: 0
+  checkUseP1: 0
+  checkUseP2: 0
   position: {x: 0.08, y: -0.59, z: 0}
   rotation: {x: 0, y: 0, z: -90}
   Scale: {x: 1.75, y: 1.75, z: 1.75}

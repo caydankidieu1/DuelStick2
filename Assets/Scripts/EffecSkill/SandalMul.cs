@@ -13,9 +13,12 @@ public class SandalMul : MonoBehaviour
 
     public GameObject prefab;
     public GameObject VFX;
+    public string nametag;
 
     private void Start()
     {
+        nametag = gameObject.tag;
+        StartCoroutine(waitchange());
         timeDelayClone = timeDelay;
 
         if (checkM24)
@@ -23,6 +26,14 @@ public class SandalMul : MonoBehaviour
             timeDelay = 0.1f;
         }
     }
+
+    IEnumerator waitchange()
+    {
+        yield return new WaitForSeconds(0.2f);
+        gameObject.tag = Tags.unTag;
+        yield return 0;
+    }
+
     private void Update()
     {
         timeDelay -= Time.deltaTime;
@@ -37,7 +48,7 @@ public class SandalMul : MonoBehaviour
 
             StartCoroutine(waiToHide());
 
-            T.tag = gameObject.tag;
+            T.tag = nametag;
             timeDelay = timeDelayClone;
             sum++;
 

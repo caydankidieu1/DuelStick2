@@ -17,7 +17,7 @@ MonoBehaviour:
   equipSlots: 1
   damage: 13
   maxdamage: 150
-  skillDamage: 25
+  skillDamage: 27
   maxskillDamage: 150
   description: 
   timesToCD: 1
@@ -32,6 +32,8 @@ MonoBehaviour:
   RateLucky: 2.7545
   checkBuy: 0
   checkUse: 0
+  checkUseP1: 0
+  checkUseP2: 0
   position: {x: 0, y: -0.94, z: 0}
   rotation: {x: 0, y: 0, z: -90}
   Scale: {x: 1, y: 1, z: 1}

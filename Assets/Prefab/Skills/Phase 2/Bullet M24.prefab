@@ -9656,3 +9656,4 @@ MonoBehaviour:
   checkM24: 1
   prefab: {fileID: 5709743620219181918, guid: 7451d036f8eaa06429f828d927e14729, type: 3}
   VFX: {fileID: 3520290262558541115}
+  nametag: 

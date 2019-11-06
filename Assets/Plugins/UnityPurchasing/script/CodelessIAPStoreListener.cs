@@ -130,6 +130,8 @@ namespace UnityEngine.Purchasing
 
         public void InitiatePurchase(string productID)
         {
+            OnInitialized(controller, extensions);  
+
             if (controller == null)
             {
                 Debug.LogError("Purchase failed because Purchasing was not initialized correctly");
@@ -152,6 +154,7 @@ namespace UnityEngine.Purchasing
             initializationComplete = true;
             this.controller = controller;
             this.extensions = extensions;
+            Debug.Log(controller);
 
             foreach (var button in activeButtons)
             {

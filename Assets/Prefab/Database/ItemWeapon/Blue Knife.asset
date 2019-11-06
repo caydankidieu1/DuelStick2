@@ -15,23 +15,25 @@ MonoBehaviour:
   id: 03
   nameWeapon: Blue Knife
   equipSlots: 1
-  damage: 9
-  maxdamage: 150
+  damage: 15
+  maxdamage: 15
   skillDamage: 0
   maxskillDamage: 0
   description: 
   timesToCD: 1
   countDownTime: 5
-  forceKnockback: 1
+  forceKnockback: 2
   Sprite: {fileID: 21300000, guid: 7f286a2c519544f4fb816d62b1016c2c, type: 3}
   SpriteStore: {fileID: 21300000, guid: 7f286a2c519544f4fb816d62b1016c2c, type: 3}
   cost: 0
-  levelUnlock: 100
+  levelUnlock: 0
   checkVideoUnlock: 0
   videoUnlock: 0
   RateLucky: 7.3453
-  checkBuy: 0
+  checkBuy: 1
   checkUse: 0
+  checkUseP1: 1
+  checkUseP2: 0
   position: {x: 0.01, y: -0.642, z: 0}
   rotation: {x: 0, y: 0, z: -90}
   Scale: {x: 2, y: 2, z: 2}

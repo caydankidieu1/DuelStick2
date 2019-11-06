@@ -527,6 +527,8 @@ public class WeaponStoreUI : MonoBehaviour
                                 item.SetValues();
                             }
                         }
+
+                        SaveWeapon();
                     }
                 }
                 else
@@ -590,7 +592,7 @@ public class WeaponStoreUI : MonoBehaviour
     {
         for (int i = 0; i < weapon.Length; i++)
         {
-            if (weapon[i].id == "01")
+            if (weapon[i].id == "03")
             {
                 weapon[i].checkUseP1 = true;
             }
@@ -606,7 +608,7 @@ public class WeaponStoreUI : MonoBehaviour
     {
         for (int i = 0; i < weapon.Length; i++)
         {
-            if (weapon[i].id == "01")
+            if (weapon[i].id == "03")
             {
                 weapon[i].checkUseP2 = true;
             }

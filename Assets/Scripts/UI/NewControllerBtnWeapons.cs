@@ -31,7 +31,7 @@ public class NewControllerBtnWeapons : MonoBehaviour
             if (weapons.checkBuy)
             {
                 mySeft.sprite = borderBuy;
-                name.text = weapons.name;
+                name.text = weapons.nameWeapon;
 
                 if (weapons.checkUseP1)
                 {
@@ -57,7 +57,7 @@ public class NewControllerBtnWeapons : MonoBehaviour
             if (weapons.checkBuy)
             {
                 mySeft.sprite = borderBuy;
-                name.text = weapons.name;
+                name.text = weapons.nameWeapon;
 
                 if (weapons.checkUseP2)
                 {
@@ -106,9 +106,25 @@ public class NewControllerBtnWeapons : MonoBehaviour
             else
             {
                 weaponUI.DefaultWeaponP1();
+
+                for (int i = 0; i < weaponUI.weapon.Length; i++)
+                {
+                    if (weaponUI.weapon[i].id == "03")
+                    {
+                        parent.sprite = weaponUI.weapon[i].SpriteStore;
+                        nameSkinParent.text = weaponUI.weapon[i].nameWeapon;
+
+                        var info = parent.GetComponent<RectTransform>();
+                        info.localScale = new Vector3(1, 1, 1);
+
+                        parent.type = Image.Type.Simple;
+                        parent.SetNativeSize();
+                        parent.type = Image.Type.Sliced;
+                    }
+                }
             }
 
-            if (checkP1)
+            if (checkP1 && weapons.checkBuy)
             {
                 parent.sprite = weapons.SpriteStore;
                 nameSkinParent.text = weapons.nameWeapon;
@@ -133,10 +149,26 @@ public class NewControllerBtnWeapons : MonoBehaviour
             else
             {
                 weaponUI.DefaultWeaponP2();
+
+                for (int i = 0; i < weaponUI.weapon.Length; i++)
+                {
+                    if (weaponUI.weapon[i].id == "03")
+                    {
+                        parent.sprite = weaponUI.weapon[i].SpriteStore;
+                        nameSkinParent.text = weaponUI.weapon[i].nameWeapon;
+
+                        var info = parent.GetComponent<RectTransform>();
+                        info.localScale = new Vector3(1, 1, 1);
+
+                        parent.type = Image.Type.Simple;
+                        parent.SetNativeSize();
+                        parent.type = Image.Type.Sliced;
+                    }
+                }
             }
 
 
-            if (checkP2)
+            if (checkP2 && weapons.checkBuy)
             {
                 parent.sprite = weapons.SpriteStore;
                 nameSkinParent.text = weapons.nameWeapon;

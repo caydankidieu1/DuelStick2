@@ -202,7 +202,7 @@ public class ScrollRectSnap_CS : MonoBehaviour
 
             if (btn.Skins.checkBuy)
             {
-                skins.ResetAllWeaponP1();
+                skins.ResetAllCotsumeP1();
                 checkUse = true;
                 btn.Skins.checkUseP1 = true;
                 skins.SaveSkin();

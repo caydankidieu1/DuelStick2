@@ -4,6 +4,7 @@ using System.Collections;
 public class Tags
 {
     // other
+    public const string unTag = "Untagged";
     public const string death = "deathZone";
     public const string deathAir = "deathZoneAir";
     public const string ground = "ground";
@@ -19,4 +20,6 @@ public class Tags
     //Player and Enemy
     public const string P = "player";
     public const string E = "enemy";
+
+    public const string beginAll = "firstGame";
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4998954485718570}
   m_Layer: 0
   m_Name: To Ong Sandal Bullet 1
-  m_TagString: skillP
+  m_TagString: skillE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,3 +89,4 @@ MonoBehaviour:
   checkM24: 1
   prefab: {fileID: 4903248826197964126, guid: 40c768db32571ea4db0ea4e5d61664e3, type: 3}
   VFX: {fileID: 0}
+  nametag: 

@@ -423,7 +423,7 @@ public class SkinUI : MonoBehaviour
             Debug.Log("Great You have Cotsume");
         }
     }
-    public void ResetAllWeaponP1()
+    public void ResetAllCotsumeP1()
     {
         for (int i = 0; i < cotsume.Length; i++)
         {
@@ -457,6 +457,7 @@ public class SkinUI : MonoBehaviour
 
         SaveSkin();
     }
+
     public void SelectDefaultWeapon2()
     {
         for (int i = 0; i < cotsume.Length; i++)

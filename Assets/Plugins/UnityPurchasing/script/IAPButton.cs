@@ -106,6 +106,8 @@ namespace UnityEngine.Purchasing
             {
                 Debug.Log("IAPButton.PurchaseProduct() with product ID: " + productId);
 
+                //CodelessIAPStoreListener.Instance.OnInitialized(CodelessIAPStoreListener.Instance.StoreController, CodelessIAPStoreListener.Instance.ExtensionProvider);
+
                 CodelessIAPStoreListener.Instance.InitiatePurchase(productId);
             }
         }

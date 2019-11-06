@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 11
   name: Ultimate SKin(Discount 50%)
-  description: Full Skin(Discount 50%)
+  description: Full Skins(Discount 50%)
   cost: 16.99
   namePackage: com.duel.fullskin1
   icon: {fileID: 21300000, guid: 019f26c1ea89bc742a3e99f9ebe85b3d, type: 3}

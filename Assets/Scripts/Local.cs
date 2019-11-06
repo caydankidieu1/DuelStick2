@@ -50,6 +50,8 @@ public class Local : MonoBehaviour
     private float cloneTimeCheck;
     [Header("--------------------------- ID Skins Weapon --------------------")]
     public int HP;
+
+    private int HPClone;
     public int damagebase;
     public int damageskill;
     public int[] skinsE;
@@ -60,6 +62,8 @@ public class Local : MonoBehaviour
 
     [Header("END LESS")]
     public bool ENDLESS;
+
+    public ControllerAll1P controllerAll;
 
     private int testvalue;
     private void Start()
@@ -85,6 +89,11 @@ public class Local : MonoBehaviour
     }
     private void Update()
     {
+        if (ENDLESS)
+        {
+            secondchange = true;
+        }
+
         if (playerManager)
         {
             if (playerManager.HP > 0)
@@ -93,7 +102,15 @@ public class Local : MonoBehaviour
                 if (ENDLESS)
                 {
                     numberEnemysMapHave = 999;
-                    Mathf.Clamp(sumKills, 0, 998);
+                    sumKills = Mathf.Clamp(sumKills, 0, 998);
+                    if (sumKills >= 1)
+                    {
+                        if (controllerAll)
+                        {
+                            //controllerAll.StartRandom();
+                            StartCoroutine(waitToDes());
+                        }
+                    }
                 }
                 else
                 {
@@ -128,6 +145,17 @@ public class Local : MonoBehaviour
         setValuePopUp();
 
         //FreezeEnemy();
+    }
+
+    IEnumerator waitToDes()
+    {
+        yield return new WaitForSeconds(2f);
+        if (controllerAll)
+        {
+            controllerAll.StartRandom();
+            controllerAll = null;
+        }
+        yield return 0;
     }
     void conditionStar()
     {
@@ -348,8 +376,32 @@ public class Local : MonoBehaviour
         var infoCotsume = T.GetComponent<CotsumeControllerEnemy>();
         //.id = RandomSkin();
         infoCotsume.id = RandomSkin();
-        infoCotsume.HP = (RandomHP() * 70 / 100);
-        T.GetComponent<CreateWeaponE>().idItem = RandomWeapon();
+
+        var randomRate = Random.Range(80, 120);
+
+        infoCotsume.HP = (RandomHPSkinPlayer() * randomRate / 100);
+
+        var idtest = RandomWeapon();
+        T.GetComponent<CreateWeaponE>().idItem = idtest;//RandomWeapon();
+
+        for (int i = 0; i < weaponManager.weaponItem.Length; i++)
+        {
+            if (weaponManager.weaponItem[i].id == idtest)
+            {
+                damagebase = (int)Mathf.Round(weaponManager.weaponItem[i].damage * 0.5f);
+                damageskill = (int)Mathf.Round(weaponManager.weaponItem[i].skillDamage * 0.5f);
+
+                if (damagebase < 5)
+                {
+                    damagebase = 5;
+                }
+
+                if (damageskill < 5)
+                {
+                    damageskill = 5;
+                }
+            }
+        }
 
         if (damagebase != 0)
         {
@@ -390,6 +442,18 @@ public class Local : MonoBehaviour
 
         Cotsume skinEnemys = testAllSkinBuy[Random.Range(0, (int)testAllSkinBuy.Count)];
         return skinEnemys.id;
+    }
+    int RandomHPSkinPlayer()
+    {
+        for (int i = 0; i < controllerSkin.cotsume.Length; i++)
+        {
+            if (controllerSkin.cotsume[i].checkUseP1)
+            {
+                HPClone = controllerSkin.cotsume[i].HP;
+            }
+        }
+
+        return HPClone;
     }
     int RandomHP()
     {

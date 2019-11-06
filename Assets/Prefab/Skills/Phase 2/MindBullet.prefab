@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5150291685600987673}
   m_Layer: 0
   m_Name: MindBullet
-  m_TagString: skillP
+  m_TagString: skillE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -360,6 +360,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1945406540161422918}
     m_Modifications:
+    - target: {fileID: 184014, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
+      propertyPath: m_Name
+      value: BlueWarpGateDirectional
+      objectReference: {fileID: 0}
     - target: {fileID: 480186, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -415,10 +419,6 @@ PrefabInstance:
     - target: {fileID: 480186, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 184014, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
-      propertyPath: m_Name
-      value: BlueWarpGateDirectional
       objectReference: {fileID: 0}
     - target: {fileID: 19853078, guid: ca86889bde346334da06a2d48463c7fc, type: 3}
       propertyPath: InitialModule.startSize.scalar

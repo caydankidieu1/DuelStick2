@@ -22,7 +22,7 @@ MonoBehaviour:
   description: 
   timesToCD: 1
   countDownTime: 5
-  forceKnockback: 3
+  forceKnockback: 1.5
   Sprite: {fileID: 21300000, guid: 646486ceed6ff654fa4ce5d8bfa67542, type: 3}
   SpriteStore: {fileID: 21300000, guid: 646486ceed6ff654fa4ce5d8bfa67542, type: 3}
   cost: 0
